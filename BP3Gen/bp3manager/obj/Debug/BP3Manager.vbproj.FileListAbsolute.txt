@@ -1,0 +1,7 @@
+C:\bami\projects\BP3\BP3Gen\BP3xcopy\BP3Manager.dll
+C:\bami\projects\BP3\BP3Gen\BP3xcopy\BP3Manager.pdb
+C:\bami\projects\BP3\BP3Gen\BP3xcopy\BP3Manager.xml
+C:\bami\projects\BP3\BP3Gen\bp3manager\obj\Debug\BP3Manager.dll
+C:\bami\projects\BP3\BP3Gen\bp3manager\obj\Debug\BP3Manager.xml
+C:\bami\projects\BP3\BP3Gen\bp3manager\obj\Debug\BP3Manager.pdb
+C:\bami\projects\BP3\BP3Gen\BP3xcopy\bp3_sites.XML

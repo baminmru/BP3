@@ -1,0 +1,5 @@
+C:\bami\projects\BP3\BP3Gen\BP3\VB.NET Model\BP3xcopy\bp3doc.dll
+C:\bami\projects\BP3\BP3Gen\BP3\VB.NET Model\BP3xcopy\bp3doc.xml
+C:\bami\projects\BP3\BP3Gen\BP3\VB.NET Model\bp3doc\obj\Release\bp3doc.vbprojResolveAssemblyReference.cache
+C:\bami\projects\BP3\BP3Gen\BP3\VB.NET Model\bp3doc\obj\Release\bp3doc.dll
+C:\bami\projects\BP3\BP3Gen\BP3\VB.NET Model\bp3doc\obj\Release\bp3doc.xml

@@ -1,0 +1,12 @@
+C:\bami\projects\express\L2\bp3_sites.XML
+C:\bami\projects\express\L2\bp3card.dll
+C:\bami\projects\express\L2\bp3card.pdb
+C:\bami\projects\express\L2\bp3card.xml
+C:\bami\projects\BP3\BP3Gen\BP3\VB.NET Model\bp3card\obj\Debug\bp3card.dll
+C:\bami\projects\BP3\BP3Gen\BP3\VB.NET Model\bp3card\obj\Debug\bp3card.xml
+C:\bami\projects\BP3\BP3Gen\BP3\VB.NET Model\bp3card\obj\Debug\bp3card.pdb
+C:\bami\projects\BP3\BP3Gen\BP3xcopy\bp3_sites.XML
+C:\bami\projects\BP3\BP3Gen\BP3xcopy\bp3card.dll
+C:\bami\projects\BP3\BP3Gen\BP3xcopy\bp3card.pdb
+C:\bami\projects\BP3\BP3Gen\BP3xcopy\bp3card.xml
+C:\bami\projects\BP3\BP3Gen\BP3\VB.NET Model\bp3card\obj\Debug\bp3card.vbprojResolveAssemblyReference.cache

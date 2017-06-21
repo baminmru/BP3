@@ -1,0 +1,11 @@
+C:\bami\projects\BP3\BP3Gen\BP3xcopy\BP3DBCreator.exe.config
+C:\bami\projects\BP3\BP3Gen\BP3xcopy\bp3_sites.XML
+C:\bami\projects\BP3\BP3Gen\BP3xcopy\BP3DBCreator.exe
+C:\bami\projects\BP3\BP3Gen\BP3xcopy\BP3DBCreator.pdb
+C:\bami\projects\BP3\BP3Gen\BP3xcopy\BP3DBCreator.xml
+C:\bami\projects\BP3\BP3Gen\BP3DBCreator\obj\Debug\BP3DBCreator.vbprojResolveAssemblyReference.cache
+C:\bami\projects\BP3\BP3Gen\BP3DBCreator\obj\Debug\BP3DBCreator.Resources.resources
+C:\bami\projects\BP3\BP3Gen\BP3DBCreator\obj\Debug\BP3DBCreator.vbproj.GenerateResource.Cache
+C:\bami\projects\BP3\BP3Gen\BP3DBCreator\obj\Debug\BP3DBCreator.exe
+C:\bami\projects\BP3\BP3Gen\BP3DBCreator\obj\Debug\BP3DBCreator.xml
+C:\bami\projects\BP3\BP3Gen\BP3DBCreator\obj\Debug\BP3DBCreator.pdb

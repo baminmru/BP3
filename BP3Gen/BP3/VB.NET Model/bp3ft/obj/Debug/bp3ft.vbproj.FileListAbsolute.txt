@@ -1,0 +1,12 @@
+C:\bami\projects\BP3\BP3Gen\BP3\VB.NET Model\BP3xcopy\bp3_sites.XML
+C:\bami\projects\BP3\BP3Gen\BP3\VB.NET Model\BP3xcopy\bp3ft.dll
+C:\bami\projects\BP3\BP3Gen\BP3\VB.NET Model\BP3xcopy\bp3ft.pdb
+C:\bami\projects\BP3\BP3Gen\BP3\VB.NET Model\BP3xcopy\bp3ft.xml
+C:\bami\projects\BP3\BP3Gen\BP3\VB.NET Model\bp3ft\obj\Debug\bp3ft.dll
+C:\bami\projects\BP3\BP3Gen\BP3\VB.NET Model\bp3ft\obj\Debug\bp3ft.xml
+C:\bami\projects\BP3\BP3Gen\BP3\VB.NET Model\bp3ft\obj\Debug\bp3ft.pdb
+C:\bami\projects\BP3\BP3Gen\BP3xcopy\bp3_sites.XML
+C:\bami\projects\BP3\BP3Gen\BP3xcopy\bp3ft.dll
+C:\bami\projects\BP3\BP3Gen\BP3xcopy\bp3ft.pdb
+C:\bami\projects\BP3\BP3Gen\BP3xcopy\bp3ft.xml
+C:\bami\projects\BP3\BP3Gen\BP3\VB.NET Model\bp3ft\obj\Debug\bp3ft.vbprojResolveAssemblyReference.cache

@@ -1,0 +1,1098 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+bp3qry
+</name>
+</assembly>
+<members>
+<member name="M:bp3qry.bp3qry.bp3qry_column_col.ChildPartName">
+	<summary>
+Имя раздела в базе данных
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3qry.bp3qry.bp3qry_column_col.CreateDataTable">
+	<summary>
+Вернуть даные текущей коллекции в виде DataTable
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3qry.bp3qry.bp3qry_column_col.NewItem">
+	<summary>
+Создание нового элемента коллекции
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3qry.bp3qry.bp3qry_column_col.GetItem(System.Object)">
+	<summary>
+Получить элемент коллекции
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3qry.bp3qry.bp3qry_column_col.Item(System.Object)">
+	<summary>
+Получить элемент коллекции, более свежий вариант
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3qry.bp3qry.bp3qry_column_col">
+	<summary>
+Реализация раздела Колонкав виде коллекции
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:bp3qry.bp3qry.bp3qry_link.m_HandJoin">
+	<summary>
+Локальная переменная для поля Ручной join
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:bp3qry.bp3qry.bp3qry_link.m_TheJoinSource">
+	<summary>
+Локальная переменная для поля Связь: Поле для join источник
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:bp3qry.bp3qry.bp3qry_link.m_TheJoinDestination">
+	<summary>
+Локальная переменная для поля Свзяь: Поле для join приемник
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:bp3qry.bp3qry.bp3qry_link.m_SEQ">
+	<summary>
+Локальная переменная для поля Порядок
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:bp3qry.bp3qry.bp3qry_link.m_RefType">
+	<summary>
+Локальная переменная для поля Связывать как
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:bp3qry.bp3qry.bp3qry_link.m_TheView">
+	<summary>
+Локальная переменная для поля Представление
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3qry.bp3qry.bp3qry_link.CleanFields">
+	<summary>
+Очистить поля раздела
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bp3qry.bp3qry.bp3qry_link.Count">
+	<summary>
+Количество полей в строке раздела
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bp3qry.bp3qry.bp3qry_link.Value(System.Object)">
+	<summary>
+Получить \Задать поле по номеру 
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3qry.bp3qry.bp3qry_link.FieldNameByID(System.Int64)">
+	<summary>
+Название поля по номеру
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3qry.bp3qry.bp3qry_link.FillDataTable(System.Data.DataTable@)">
+	<summary>
+Заполнить строку таблицы данными из полей
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3qry.bp3qry.bp3qry_link.FindInside(System.String,System.String)">
+	<summary>
+Найти строку в коллекции по идентификатору
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3qry.bp3qry.bp3qry_link.Pack(BP3.NamedValues)">
+	<summary>
+Заполнить коллекцю именованных полей
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3qry.bp3qry.bp3qry_link.Unpack(System.Data.DataRow)">
+	<summary>
+Заполнить поля из именованной коллекции
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bp3qry.bp3qry.bp3qry_link.TheJoinDestination">
+	<summary>
+Доступ к полю Свзяь: Поле для join приемник
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bp3qry.bp3qry.bp3qry_link.HandJoin">
+	<summary>
+Доступ к полю Ручной join
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bp3qry.bp3qry.bp3qry_link.SEQ">
+	<summary>
+Доступ к полю Порядок
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bp3qry.bp3qry.bp3qry_link.TheJoinSource">
+	<summary>
+Доступ к полю Связь: Поле для join источник
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bp3qry.bp3qry.bp3qry_link.TheView">
+	<summary>
+Доступ к полю Представление
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bp3qry.bp3qry.bp3qry_link.RefType">
+	<summary>
+Доступ к полю Связывать как
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3qry.bp3qry.bp3qry_link.XMLUnpack(System.Xml.XmlNode,System.Int32)">
+	<summary>
+Заполнить поля данными из XML
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3qry.bp3qry.bp3qry_link.XLMPack(System.Xml.XmlElement,System.Xml.XmlDocument)">
+	<summary>
+Записать данные раздела в XML файл
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3qry.bp3qry.bp3qry_link.BatchUpdate">
+	<summary>
+Записать изменения в базу данных
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bp3qry.bp3qry.bp3qry_link.CountOfParts">
+	<summary>
+Количество дочерних разделов
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3qry.bp3qry.bp3qry_link.GetDocCollection_Base(System.Int64)">
+	<summary>
+Доступ к дочернему разделу по номеру
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3qry.bp3qry.bp3qry_link">
+	<summary>
+Реализация строки раздела Связанные представления
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:bp3qry.bp3qry.bp3qry_column.m_Name">
+	<summary>
+Локальная переменная для поля Название
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:bp3qry.bp3qry.bp3qry_column.m_FromPart">
+	<summary>
+Локальная переменная для поля Раздел
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:bp3qry.bp3qry.bp3qry_column.m_Aggregation">
+	<summary>
+Локальная переменная для поля Агрегация
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:bp3qry.bp3qry.bp3qry_column.m_sequence">
+	<summary>
+Локальная переменная для поля №
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:bp3qry.bp3qry.bp3qry_column.m_ForCombo">
+	<summary>
+Локальная переменная для поля Для комбо
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:bp3qry.bp3qry.bp3qry_column.m_Expression">
+	<summary>
+Локальная переменная для поля Формула
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:bp3qry.bp3qry.bp3qry_column.m_the_Alias">
+	<summary>
+Локальная переменная для поля Псвдоним
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:bp3qry.bp3qry.bp3qry_column.m_Field">
+	<summary>
+Локальная переменная для поля Поле
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3qry.bp3qry.bp3qry_column.CleanFields">
+	<summary>
+Очистить поля раздела
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bp3qry.bp3qry.bp3qry_column.Count">
+	<summary>
+Количество полей в строке раздела
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bp3qry.bp3qry.bp3qry_column.Value(System.Object)">
+	<summary>
+Получить \Задать поле по номеру 
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3qry.bp3qry.bp3qry_column.FieldNameByID(System.Int64)">
+	<summary>
+Название поля по номеру
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3qry.bp3qry.bp3qry_column.FillDataTable(System.Data.DataTable@)">
+	<summary>
+Заполнить строку таблицы данными из полей
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3qry.bp3qry.bp3qry_column.FindInside(System.String,System.String)">
+	<summary>
+Найти строку в коллекции по идентификатору
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3qry.bp3qry.bp3qry_column.Pack(BP3.NamedValues)">
+	<summary>
+Заполнить коллекцю именованных полей
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3qry.bp3qry.bp3qry_column.Unpack(System.Data.DataRow)">
+	<summary>
+Заполнить поля из именованной коллекции
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bp3qry.bp3qry.bp3qry_column.ForCombo">
+	<summary>
+Доступ к полю Для комбо
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bp3qry.bp3qry.bp3qry_column.FromPart">
+	<summary>
+Доступ к полю Раздел
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bp3qry.bp3qry.bp3qry_column.Aggregation">
+	<summary>
+Доступ к полю Агрегация
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bp3qry.bp3qry.bp3qry_column.sequence">
+	<summary>
+Доступ к полю №
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bp3qry.bp3qry.bp3qry_column.the_Alias">
+	<summary>
+Доступ к полю Псвдоним
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bp3qry.bp3qry.bp3qry_column.Name">
+	<summary>
+Доступ к полю Название
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bp3qry.bp3qry.bp3qry_column.Field">
+	<summary>
+Доступ к полю Поле
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bp3qry.bp3qry.bp3qry_column.Expression">
+	<summary>
+Доступ к полю Формула
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3qry.bp3qry.bp3qry_column.XMLUnpack(System.Xml.XmlNode,System.Int32)">
+	<summary>
+Заполнить поля данными из XML
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3qry.bp3qry.bp3qry_column.XLMPack(System.Xml.XmlElement,System.Xml.XmlDocument)">
+	<summary>
+Записать данные раздела в XML файл
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3qry.bp3qry.bp3qry_column.BatchUpdate">
+	<summary>
+Записать изменения в базу данных
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bp3qry.bp3qry.bp3qry_column.CountOfParts">
+	<summary>
+Количество дочерних разделов
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3qry.bp3qry.bp3qry_column.GetDocCollection_Base(System.Int64)">
+	<summary>
+Доступ к дочернему разделу по номеру
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3qry.bp3qry.bp3qry_column">
+	<summary>
+Реализация строки раздела Колонка
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3qry.bp3qry.enumtypeTRF">
+	<summary>
+Перечисление Тип тарифа СС
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3qry.bp3qry.enumStructType">
+	<summary>
+Перечисление Тип раздела
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3qry.bp3qry.enumSaleRent">
+	<summary>
+Перечисление Арендапродажа
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3qry.bp3qry.enumWFFuncParam">
+	<summary>
+Перечисление Вариант расшифровки параметра функции
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3qry.bp3qry.enumReportType">
+	<summary>
+Перечисление Вариант отчета
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3qry.bp3qry.enumEducation">
+	<summary>
+Перечисление Образование
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3qry.bp3qry.enumKONTR_STATUS">
+	<summary>
+Перечисление Состояние партнера
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3qry.bp3qry.enumTypeStyle">
+	<summary>
+Перечисление Вариант трактовки типа поля
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3qry.bp3qry.enumReplicationType">
+	<summary>
+Перечисление Вариант репликации докуента
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3qry.bp3qry.enumDCType">
+	<summary>
+Перечисление Остатки/Дебит/Кредит
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3qry.bp3qry.enumNumerationRule">
+	<summary>
+Перечисление Правило нумерации
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3qry.bp3qry.enumWFProcessState">
+	<summary>
+Перечисление Состояния процесса
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3qry.bp3qry.enumMenuActionType">
+	<summary>
+Перечисление Вариант действия при выборе пункта меню
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3qry.bp3qry.enumtypeOperatorSystem">
+	<summary>
+Перечисление 
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3qry.bp3qry.enumtypeOrder">
+	<summary>
+Перечисление 
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3qry.bp3qry.enumWFShortcutType">
+	<summary>
+Перечисление Варианты ярлыков, которые может размещать процесс
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3qry.bp3qry.enumVHAlignment">
+	<summary>
+Перечисление Выравнивание
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3qry.bp3qry.enumtypeDocOrder">
+	<summary>
+Перечисление Тип документов для печати заказчику
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3qry.bp3qry.enumTypeSempling">
+	<summary>
+Перечисление Тип выборки
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3qry.bp3qry.enumCurrencyType">
+	<summary>
+Перечисление Валюта платежа
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3qry.bp3qry.enumInfoStoreType">
+	<summary>
+Перечисление Тип каталога
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3qry.bp3qry.enumB2Market">
+	<summary>
+Перечисление Рынок
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3qry.bp3qry.enumDevelopmentBase">
+	<summary>
+Перечисление Платформа разработки
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3qry.bp3qry.enumQuarter">
+	<summary>
+Перечисление Квартал
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3qry.bp3qry.enumMonths">
+	<summary>
+Перечисление Месяцы
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3qry.bp3qry.enumtypePackage">
+	<summary>
+Перечисление Тип отправления
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3qry.bp3qry.enumColumnSortType">
+	<summary>
+Перечисление Вариант сортиовки данных колонки
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3qry.bp3qry.enumHACCPPStep">
+	<summary>
+Перечисление Тип шага в ХАССП процессе
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3qry.bp3qry.enumBoolean">
+	<summary>
+Перечисление Да / Нет
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3qry.bp3qry.enumVRTaskType">
+	<summary>
+Перечисление Тип задачи
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3qry.bp3qry.enumJournalLinkType">
+	<summary>
+Перечисление Для связи журналов друг с другом
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3qry.bp3qry.enumTargetType">
+	<summary>
+Перечисление Вариант уровня приложения, куда может генерироваться код
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3qry.bp3qry.enumAdditionType">
+	<summary>
+Перечисление Тип надбавки
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3qry.bp3qry.enumPCB_LayerP">
+	<summary>
+Перечисление Представление поля
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3qry.bp3qry.enumtypeClient">
+	<summary>
+Перечисление Тип заказчика
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3qry.bp3qry.enumCacheType">
+	<summary>
+Перечисление Тип кеширования для расчета прав на объекты
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3qry.bp3qry.enumtypeRowCheque">
+	<summary>
+Перечисление Тип строки чека
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3qry.bp3qry.enumMesureFormat">
+	<summary>
+Перечисление Формат индикатора
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3qry.bp3qry.enumExportType">
+	<summary>
+Перечисление Тип экспорта
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3qry.bp3qry.enumWFStepClass">
+	<summary>
+Перечисление Тип шага процесса
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3qry.bp3qry.enumHACCPStep">
+	<summary>
+Перечисление Тип шага в ХАССП процессе
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3qry.bp3qry.enumtypePersonPay">
+	<summary>
+Перечисление 
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3qry.bp3qry.enumDayInWeek">
+	<summary>
+Перечисление День недели
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3qry.bp3qry.enumGeneratorStyle">
+	<summary>
+Перечисление GeneratorStyle
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3qry.bp3qry.enumPlatType">
+	<summary>
+Перечисление Тип плательщика
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3qry.bp3qry.enummsgState">
+	<summary>
+Перечисление Состояние заявки
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3qry.bp3qry.enumKONTR_TYPE">
+	<summary>
+Перечисление Тип контрагента
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3qry.bp3qry.enumtypeNomen">
+	<summary>
+Перечисление Тип номенкатуры
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3qry.bp3qry.enumOnJournalRowClick">
+	<summary>
+Перечисление действие при открытии строки журнала
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3qry.bp3qry.enumPartType">
+	<summary>
+Перечисление PartType
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3qry.bp3qry.enumtypePay">
+	<summary>
+Перечисление Сдельная  Ставка
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3qry.bp3qry.enumReferenceType">
+	<summary>
+Перечисление ReferenceType
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3qry.bp3qry.enumstateNomen">
+	<summary>
+Перечисление 
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3qry.bp3qry.enumConditionType">
+	<summary>
+Перечисление Варианты условий
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3qry.bp3qry.enumFolderType">
+	<summary>
+Перечисление Тип папки
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3qry.bp3qry.enummsgResult">
+	<summary>
+Перечисление Результат
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3qry.bp3qry.enumHaccpIdent">
+	<summary>
+Перечисление Идентификация
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3qry.bp3qry.enumPartAddBehaivor">
+	<summary>
+Перечисление Поведение при добавлении строки раздела
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3qry.bp3qry.enumExtentionType">
+	<summary>
+Перечисление Тип расширения
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3qry.bp3qry.enumtypeCourier">
+	<summary>
+Перечисление Договор  ТрудКнижка
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3qry.bp3qry.enumtypeFace">
+	<summary>
+Перечисление Физическое лицо  Юрифическое лицо
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3qry.bp3qry.enumContactStyle">
+	<summary>
+Перечисление Тип контакта
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3qry.bp3qry.enumSex">
+	<summary>
+Перечисление Мужской / Женский
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3qry.bp3qry.enumYesNo">
+	<summary>
+Перечисление Да / Нет (0 или 1)
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3qry.bp3qry.enumAggregationType">
+	<summary>
+Перечисление Вариант агрегации по полю
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3qry.bp3qry.enumWFFuncState">
+	<summary>
+Перечисление Состояние функции в бизнес процессе
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3qry.bp3qry.enumEmployment">
+	<summary>
+Перечисление Занятость
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3qry.bp3qry.enumDeliveryOn">
+	<summary>
+Перечисление 
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3qry.bp3qry.enumtypeReceiv">
+	<summary>
+Перечисление 
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3qry.bp3qry.enumTriState">
+	<summary>
+Перечисление Да / Нет / Не определено
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3qry.bp3qry.enumtypeTariff">
+	<summary>
+Перечисление 
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3qry.bp3qry.Application.MyTypeName">
+	<summary>
+Название типа документа
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:bp3qry.bp3qry.Application.m_bp3qry_column">
+	<summary>
+ Внутренняя переменная для раздела Колонка
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bp3qry.bp3qry.Application.bp3qry_column">
+	<summary>
+Свойство для доступа к строкам раздела Колонка
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:bp3qry.bp3qry.Application.m_bp3qry_def">
+	<summary>
+ Внутренняя переменная для раздела Представление
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bp3qry.bp3qry.Application.bp3qry_def">
+	<summary>
+Свойство для доступа к строкам раздела Представление
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:bp3qry.bp3qry.Application.m_bp3qry_link">
+	<summary>
+ Внутренняя переменная для раздела Связанные представления
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bp3qry.bp3qry.Application.bp3qry_link">
+	<summary>
+Свойство для доступа к строкам раздела Связанные представления
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bp3qry.bp3qry.Application.CountOfParts">
+	<summary>
+Количество разделов в объекте
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3qry.bp3qry.Application.GetDocCollection_Base(System.Int64)">
+	<summary>
+Получить раздел по номеру
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3qry.bp3qry.Application.FindInCollections(System.String,System.String)">
+	<summary>
+Поиск элемента в коллекции
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3qry.bp3qry.Application.XMLLoadCollections(System.Xml.XmlNode,System.Int32)">
+	<summary>
+Загрузка данных из XML  файла
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3qry.bp3qry.Application.XMLSaveCollections(System.Xml.XmlElement,System.Xml.XmlDocument)">
+	<summary>
+Сохранение данных в XML  файле
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3qry.bp3qry.Application.BatchUpdate">
+	<summary>
+Сохранение изменений в базе данных
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3qry.bp3qry.Application">
+	<summary>
+Реализация документа 
+ </summary>
+	<remarks>
+Запрос
+ </remarks>
+</member><member name="F:bp3qry.bp3qry.bp3qry_def.m_Name">
+	<summary>
+Локальная переменная для поля Название
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:bp3qry.bp3qry.bp3qry_def.m_the_Alias">
+	<summary>
+Локальная переменная для поля Псевдоним
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:bp3qry.bp3qry.bp3qry_def.m_SrcPart">
+	<summary>
+Локальная переменная для поля Представление дя раздела
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:bp3qry.bp3qry.bp3qry_def.m_ForChoose">
+	<summary>
+Локальная переменная для поля Для поиска
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3qry.bp3qry.bp3qry_def.CleanFields">
+	<summary>
+Очистить поля раздела
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bp3qry.bp3qry.bp3qry_def.Count">
+	<summary>
+Количество полей в строке раздела
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bp3qry.bp3qry.bp3qry_def.Value(System.Object)">
+	<summary>
+Получить \Задать поле по номеру 
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3qry.bp3qry.bp3qry_def.FieldNameByID(System.Int64)">
+	<summary>
+Название поля по номеру
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3qry.bp3qry.bp3qry_def.FillDataTable(System.Data.DataTable@)">
+	<summary>
+Заполнить строку таблицы данными из полей
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3qry.bp3qry.bp3qry_def.FindInside(System.String,System.String)">
+	<summary>
+Найти строку в коллекции по идентификатору
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3qry.bp3qry.bp3qry_def.Pack(BP3.NamedValues)">
+	<summary>
+Заполнить коллекцю именованных полей
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3qry.bp3qry.bp3qry_def.Unpack(System.Data.DataRow)">
+	<summary>
+Заполнить поля из именованной коллекции
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bp3qry.bp3qry.bp3qry_def.SrcPart">
+	<summary>
+Доступ к полю Представление дя раздела
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bp3qry.bp3qry.bp3qry_def.the_Alias">
+	<summary>
+Доступ к полю Псевдоним
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bp3qry.bp3qry.bp3qry_def.ForChoose">
+	<summary>
+Доступ к полю Для поиска
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bp3qry.bp3qry.bp3qry_def.Name">
+	<summary>
+Доступ к полю Название
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3qry.bp3qry.bp3qry_def.XMLUnpack(System.Xml.XmlNode,System.Int32)">
+	<summary>
+Заполнить поля данными из XML
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3qry.bp3qry.bp3qry_def.XLMPack(System.Xml.XmlElement,System.Xml.XmlDocument)">
+	<summary>
+Записать данные раздела в XML файл
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3qry.bp3qry.bp3qry_def.BatchUpdate">
+	<summary>
+Записать изменения в базу данных
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bp3qry.bp3qry.bp3qry_def.CountOfParts">
+	<summary>
+Количество дочерних разделов
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3qry.bp3qry.bp3qry_def.GetDocCollection_Base(System.Int64)">
+	<summary>
+Доступ к дочернему разделу по номеру
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3qry.bp3qry.bp3qry_def">
+	<summary>
+Реализация строки раздела Представление
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3qry.bp3qry.bp3qry_def_col.ChildPartName">
+	<summary>
+Имя раздела в базе данных
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3qry.bp3qry.bp3qry_def_col.CreateDataTable">
+	<summary>
+Вернуть даные текущей коллекции в виде DataTable
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3qry.bp3qry.bp3qry_def_col.NewItem">
+	<summary>
+Создание нового элемента коллекции
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3qry.bp3qry.bp3qry_def_col.GetItem(System.Object)">
+	<summary>
+Получить элемент коллекции
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3qry.bp3qry.bp3qry_def_col.Item(System.Object)">
+	<summary>
+Получить элемент коллекции, более свежий вариант
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3qry.bp3qry.bp3qry_def_col">
+	<summary>
+Реализация раздела Представлениев виде коллекции
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3qry.bp3qry.bp3qry_link_col.ChildPartName">
+	<summary>
+Имя раздела в базе данных
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3qry.bp3qry.bp3qry_link_col.CreateDataTable">
+	<summary>
+Вернуть даные текущей коллекции в виде DataTable
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3qry.bp3qry.bp3qry_link_col.NewItem">
+	<summary>
+Создание нового элемента коллекции
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3qry.bp3qry.bp3qry_link_col.GetItem(System.Object)">
+	<summary>
+Получить элемент коллекции
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3qry.bp3qry.bp3qry_link_col.Item(System.Object)">
+	<summary>
+Получить элемент коллекции, более свежий вариант
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3qry.bp3qry.bp3qry_link_col">
+	<summary>
+Реализация раздела Связанные представленияв виде коллекции
+ </summary>
+	<remarks>
+	</remarks>
+</member>
+</members>
+</doc>

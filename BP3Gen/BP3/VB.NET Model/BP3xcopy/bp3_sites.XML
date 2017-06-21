@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?><root>
+<SITE Name="iUROK" Server="localhost" DB="urok11" USER="root" PASSWORD="" TIMEOUT="1000" PROVIDER="mysql" AT="a" INTEGRATED="False" INTEGRATEDARM="False" IMAGES="C:\bp3\Images\" LAYOUTS="C:\bp3\Layouts\" TEMP="" FUNC="" PROC="" KERNEL="" />
+<SITE Name="EXPRESS" Server="localhost" DB="express" USER="root" PASSWORD="" TIMEOUT="1000" PROVIDER="mysql" AT="a" INTEGRATED="False" INTEGRATEDARM="False" IMAGES="C:\bp3\Images\" LAYOUTS="C:\bp3\Layouts\" TEMP="" FUNC="" PROC="" KERNEL="" />
+<SITE Name="BP3" Server="localhost" DB="bp3_1" USER="root" PASSWORD="" TIMEOUT="1000" PROVIDER="mysql" AT="a" INTEGRATED="False" INTEGRATEDARM="False" IMAGES="C:\bp3\Images\" LAYOUTS="C:\bp3\Layouts\" TEMP="" FUNC="" PROC="" KERNEL="" />
+<SITE Name="BP3_TEST" Server="localhost" DB="bp3_test" USER="root" PASSWORD="" TIMEOUT="1000" PROVIDER="mysql" AT="a" INTEGRATED="False" INTEGRATEDARM="False" IMAGES="C:\bp3\Images\" LAYOUTS="C:\bp3\Layouts\" TEMP="" FUNC="" PROC="" KERNEL="" />
+
+</root>

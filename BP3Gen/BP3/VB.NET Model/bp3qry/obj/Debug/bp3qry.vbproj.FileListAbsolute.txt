@@ -1,0 +1,8 @@
+C:\bami\projects\BP3\BP3Gen\BP3\VB.NET Model\BP3xcopy\bp3_sites.XML
+C:\bami\projects\BP3\BP3Gen\BP3\VB.NET Model\BP3xcopy\bp3qry.dll
+C:\bami\projects\BP3\BP3Gen\BP3\VB.NET Model\BP3xcopy\bp3qry.pdb
+C:\bami\projects\BP3\BP3Gen\BP3\VB.NET Model\BP3xcopy\bp3qry.xml
+C:\bami\projects\BP3\BP3Gen\BP3\VB.NET Model\bp3qry\obj\Debug\bp3qry.dll
+C:\bami\projects\BP3\BP3Gen\BP3\VB.NET Model\bp3qry\obj\Debug\bp3qry.xml
+C:\bami\projects\BP3\BP3Gen\BP3\VB.NET Model\bp3qry\obj\Debug\bp3qry.pdb
+C:\bami\projects\BP3\BP3Gen\BP3\VB.NET Model\bp3qry\obj\Debug\bp3qry.vbprojResolveAssemblyReference.cache

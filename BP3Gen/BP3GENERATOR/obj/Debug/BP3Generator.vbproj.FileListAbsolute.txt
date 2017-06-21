@@ -1,0 +1,6 @@
+C:\bami\projects\BP3\BP3Gen\BP3xcopy\BP3Generator.dll
+C:\bami\projects\BP3\BP3Gen\BP3xcopy\BP3Generator.pdb
+C:\bami\projects\BP3\BP3Gen\BP3xcopy\BP3Generator.xml
+C:\bami\projects\BP3\BP3Gen\BP3GENERATOR\obj\Debug\BP3Generator.dll
+C:\bami\projects\BP3\BP3Gen\BP3GENERATOR\obj\Debug\BP3Generator.xml
+C:\bami\projects\BP3\BP3Gen\BP3GENERATOR\obj\Debug\BP3Generator.pdb

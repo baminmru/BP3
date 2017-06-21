@@ -1,0 +1,7 @@
+C:\bami\projects\express\L2\bp3qry.dll
+C:\bami\projects\express\L2\bp3qry.pdb
+C:\bami\projects\express\L2\bp3qry.xml
+C:\bami\L2\BP3\VB.NET Model\bp3qry\obj\Debug\ResolveAssemblyReference.cache
+C:\bami\L2\BP3\VB.NET Model\bp3qry\obj\Debug\bp3qry.dll
+C:\bami\L2\BP3\VB.NET Model\bp3qry\obj\Debug\bp3qry.xml
+C:\bami\L2\BP3\VB.NET Model\bp3qry\obj\Debug\bp3qry.pdb

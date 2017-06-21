@@ -1,0 +1,7 @@
+C:\bami\projects\express\L2\bp3card.dll
+C:\bami\projects\express\L2\bp3card.pdb
+C:\bami\projects\express\L2\bp3card.xml
+C:\bami\L2\BP3\VB.NET Model\bp3card\obj\Debug\ResolveAssemblyReference.cache
+C:\bami\L2\BP3\VB.NET Model\bp3card\obj\Debug\bp3card.dll
+C:\bami\L2\BP3\VB.NET Model\bp3card\obj\Debug\bp3card.xml
+C:\bami\L2\BP3\VB.NET Model\bp3card\obj\Debug\bp3card.pdb

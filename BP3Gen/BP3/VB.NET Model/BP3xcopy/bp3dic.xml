@@ -1,0 +1,690 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+bp3dic
+</name>
+</assembly>
+<members>
+<member name="T:bp3dic.bp3dic.enumtypeTRF">
+	<summary>
+Перечисление Тип тарифа СС
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3dic.bp3dic.enumStructType">
+	<summary>
+Перечисление Тип раздела
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3dic.bp3dic.enumSaleRent">
+	<summary>
+Перечисление Арендапродажа
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3dic.bp3dic.enumWFFuncParam">
+	<summary>
+Перечисление Вариант расшифровки параметра функции
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3dic.bp3dic.enumReportType">
+	<summary>
+Перечисление Вариант отчета
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3dic.bp3dic.enumEducation">
+	<summary>
+Перечисление Образование
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3dic.bp3dic.enumKONTR_STATUS">
+	<summary>
+Перечисление Состояние партнера
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3dic.bp3dic.enumTypeStyle">
+	<summary>
+Перечисление Вариант трактовки типа поля
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3dic.bp3dic.enumReplicationType">
+	<summary>
+Перечисление Вариант репликации докуента
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3dic.bp3dic.enumDCType">
+	<summary>
+Перечисление Остатки/Дебит/Кредит
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3dic.bp3dic.enumNumerationRule">
+	<summary>
+Перечисление Правило нумерации
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3dic.bp3dic.enumWFProcessState">
+	<summary>
+Перечисление Состояния процесса
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3dic.bp3dic.enumMenuActionType">
+	<summary>
+Перечисление Вариант действия при выборе пункта меню
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3dic.bp3dic.enumtypeOperatorSystem">
+	<summary>
+Перечисление 
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3dic.bp3dic.enumtypeOrder">
+	<summary>
+Перечисление 
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3dic.bp3dic.enumWFShortcutType">
+	<summary>
+Перечисление Варианты ярлыков, которые может размещать процесс
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3dic.bp3dic.enumVHAlignment">
+	<summary>
+Перечисление Выравнивание
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3dic.bp3dic.enumtypeDocOrder">
+	<summary>
+Перечисление Тип документов для печати заказчику
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3dic.bp3dic.enumTypeSempling">
+	<summary>
+Перечисление Тип выборки
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3dic.bp3dic.enumCurrencyType">
+	<summary>
+Перечисление Валюта платежа
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3dic.bp3dic.enumInfoStoreType">
+	<summary>
+Перечисление Тип каталога
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3dic.bp3dic.enumB2Market">
+	<summary>
+Перечисление Рынок
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3dic.bp3dic.enumDevelopmentBase">
+	<summary>
+Перечисление Платформа разработки
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3dic.bp3dic.enumQuarter">
+	<summary>
+Перечисление Квартал
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3dic.bp3dic.enumMonths">
+	<summary>
+Перечисление Месяцы
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3dic.bp3dic.enumtypePackage">
+	<summary>
+Перечисление Тип отправления
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3dic.bp3dic.enumColumnSortType">
+	<summary>
+Перечисление Вариант сортиовки данных колонки
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3dic.bp3dic.enumHACCPPStep">
+	<summary>
+Перечисление Тип шага в ХАССП процессе
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3dic.bp3dic.enumBoolean">
+	<summary>
+Перечисление Да / Нет
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3dic.bp3dic.enumVRTaskType">
+	<summary>
+Перечисление Тип задачи
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3dic.bp3dic.enumJournalLinkType">
+	<summary>
+Перечисление Для связи журналов друг с другом
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3dic.bp3dic.enumTargetType">
+	<summary>
+Перечисление Вариант уровня приложения, куда может генерироваться код
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3dic.bp3dic.enumAdditionType">
+	<summary>
+Перечисление Тип надбавки
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3dic.bp3dic.enumPCB_LayerP">
+	<summary>
+Перечисление Представление поля
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3dic.bp3dic.enumtypeClient">
+	<summary>
+Перечисление Тип заказчика
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3dic.bp3dic.enumCacheType">
+	<summary>
+Перечисление Тип кеширования для расчета прав на объекты
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3dic.bp3dic.enumtypeRowCheque">
+	<summary>
+Перечисление Тип строки чека
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3dic.bp3dic.enumMesureFormat">
+	<summary>
+Перечисление Формат индикатора
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3dic.bp3dic.enumExportType">
+	<summary>
+Перечисление Тип экспорта
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3dic.bp3dic.enumWFStepClass">
+	<summary>
+Перечисление Тип шага процесса
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3dic.bp3dic.enumHACCPStep">
+	<summary>
+Перечисление Тип шага в ХАССП процессе
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3dic.bp3dic.enumtypePersonPay">
+	<summary>
+Перечисление 
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3dic.bp3dic.enumDayInWeek">
+	<summary>
+Перечисление День недели
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3dic.bp3dic.enumGeneratorStyle">
+	<summary>
+Перечисление GeneratorStyle
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3dic.bp3dic.enumPlatType">
+	<summary>
+Перечисление Тип плательщика
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3dic.bp3dic.enummsgState">
+	<summary>
+Перечисление Состояние заявки
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3dic.bp3dic.enumKONTR_TYPE">
+	<summary>
+Перечисление Тип контрагента
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3dic.bp3dic.enumtypeNomen">
+	<summary>
+Перечисление Тип номенкатуры
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3dic.bp3dic.enumOnJournalRowClick">
+	<summary>
+Перечисление действие при открытии строки журнала
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3dic.bp3dic.enumPartType">
+	<summary>
+Перечисление PartType
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3dic.bp3dic.enumtypePay">
+	<summary>
+Перечисление Сдельная  Ставка
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3dic.bp3dic.enumReferenceType">
+	<summary>
+Перечисление ReferenceType
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3dic.bp3dic.enumstateNomen">
+	<summary>
+Перечисление 
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3dic.bp3dic.enumConditionType">
+	<summary>
+Перечисление Варианты условий
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3dic.bp3dic.enumFolderType">
+	<summary>
+Перечисление Тип папки
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3dic.bp3dic.enummsgResult">
+	<summary>
+Перечисление Результат
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3dic.bp3dic.enumHaccpIdent">
+	<summary>
+Перечисление Идентификация
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3dic.bp3dic.enumPartAddBehaivor">
+	<summary>
+Перечисление Поведение при добавлении строки раздела
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3dic.bp3dic.enumExtentionType">
+	<summary>
+Перечисление Тип расширения
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3dic.bp3dic.enumtypeCourier">
+	<summary>
+Перечисление Договор  ТрудКнижка
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3dic.bp3dic.enumtypeFace">
+	<summary>
+Перечисление Физическое лицо  Юрифическое лицо
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3dic.bp3dic.enumContactStyle">
+	<summary>
+Перечисление Тип контакта
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3dic.bp3dic.enumSex">
+	<summary>
+Перечисление Мужской / Женский
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3dic.bp3dic.enumYesNo">
+	<summary>
+Перечисление Да / Нет (0 или 1)
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3dic.bp3dic.enumAggregationType">
+	<summary>
+Перечисление Вариант агрегации по полю
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3dic.bp3dic.enumWFFuncState">
+	<summary>
+Перечисление Состояние функции в бизнес процессе
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3dic.bp3dic.enumEmployment">
+	<summary>
+Перечисление Занятость
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3dic.bp3dic.enumDeliveryOn">
+	<summary>
+Перечисление 
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3dic.bp3dic.enumtypeReceiv">
+	<summary>
+Перечисление 
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3dic.bp3dic.enumTriState">
+	<summary>
+Перечисление Да / Нет / Не определено
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3dic.bp3dic.enumtypeTariff">
+	<summary>
+Перечисление 
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3dic.bp3dic.Application.MyTypeName">
+	<summary>
+Название типа документа
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:bp3dic.bp3dic.Application.m_bp3dic_gen">
+	<summary>
+ Внутренняя переменная для раздела Генераторы
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bp3dic.bp3dic.Application.bp3dic_gen">
+	<summary>
+Свойство для доступа к строкам раздела Генераторы
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bp3dic.bp3dic.Application.CountOfParts">
+	<summary>
+Количество разделов в объекте
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3dic.bp3dic.Application.GetDocCollection_Base(System.Int64)">
+	<summary>
+Получить раздел по номеру
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3dic.bp3dic.Application.FindInCollections(System.String,System.String)">
+	<summary>
+Поиск элемента в коллекции
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3dic.bp3dic.Application.XMLLoadCollections(System.Xml.XmlNode,System.Int32)">
+	<summary>
+Загрузка данных из XML  файла
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3dic.bp3dic.Application.XMLSaveCollections(System.Xml.XmlElement,System.Xml.XmlDocument)">
+	<summary>
+Сохранение данных в XML  файле
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3dic.bp3dic.Application.BatchUpdate">
+	<summary>
+Сохранение изменений в базе данных
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3dic.bp3dic.Application">
+	<summary>
+Реализация документа 
+ </summary>
+	<remarks>
+Справочники моделлера
+ </remarks>
+</member><member name="M:bp3dic.bp3dic.bp3dic_gen_col.ChildPartName">
+	<summary>
+Имя раздела в базе данных
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3dic.bp3dic.bp3dic_gen_col.CreateDataTable">
+	<summary>
+Вернуть даные текущей коллекции в виде DataTable
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3dic.bp3dic.bp3dic_gen_col.NewItem">
+	<summary>
+Создание нового элемента коллекции
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3dic.bp3dic.bp3dic_gen_col.GetItem(System.Object)">
+	<summary>
+Получить элемент коллекции
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3dic.bp3dic.bp3dic_gen_col.Item(System.Object)">
+	<summary>
+Получить элемент коллекции, более свежий вариант
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3dic.bp3dic.bp3dic_gen_col">
+	<summary>
+Реализация раздела Генераторыв виде коллекции
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:bp3dic.bp3dic.bp3dic_gen.m_Name">
+	<summary>
+Локальная переменная для поля Название
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:bp3dic.bp3dic.bp3dic_gen.m_GeneratorStyle">
+	<summary>
+Локальная переменная для поля Вариант
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:bp3dic.bp3dic.bp3dic_gen.m_QueueName">
+	<summary>
+Локальная переменная для поля Очередь
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:bp3dic.bp3dic.bp3dic_gen.m_TheDevelopmentEnv">
+	<summary>
+Локальная переменная для поля Среда разработки
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:bp3dic.bp3dic.bp3dic_gen.m_GeneratorProgID">
+	<summary>
+Локальная переменная для поля COM класс
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:bp3dic.bp3dic.bp3dic_gen.m_TargetType">
+	<summary>
+Локальная переменная для поля Тип платформы
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3dic.bp3dic.bp3dic_gen.CleanFields">
+	<summary>
+Очистить поля раздела
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bp3dic.bp3dic.bp3dic_gen.Count">
+	<summary>
+Количество полей в строке раздела
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bp3dic.bp3dic.bp3dic_gen.Value(System.Object)">
+	<summary>
+Получить \Задать поле по номеру 
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3dic.bp3dic.bp3dic_gen.FieldNameByID(System.Int64)">
+	<summary>
+Название поля по номеру
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3dic.bp3dic.bp3dic_gen.FillDataTable(System.Data.DataTable@)">
+	<summary>
+Заполнить строку таблицы данными из полей
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3dic.bp3dic.bp3dic_gen.FindInside(System.String,System.String)">
+	<summary>
+Найти строку в коллекции по идентификатору
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3dic.bp3dic.bp3dic_gen.Pack(BP3.NamedValues)">
+	<summary>
+Заполнить коллекцю именованных полей
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3dic.bp3dic.bp3dic_gen.Unpack(System.Data.DataRow)">
+	<summary>
+Заполнить поля из именованной коллекции
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bp3dic.bp3dic.bp3dic_gen.Name">
+	<summary>
+Доступ к полю Название
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bp3dic.bp3dic.bp3dic_gen.GeneratorStyle">
+	<summary>
+Доступ к полю Вариант
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bp3dic.bp3dic.bp3dic_gen.QueueName">
+	<summary>
+Доступ к полю Очередь
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bp3dic.bp3dic.bp3dic_gen.TheDevelopmentEnv">
+	<summary>
+Доступ к полю Среда разработки
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bp3dic.bp3dic.bp3dic_gen.GeneratorProgID">
+	<summary>
+Доступ к полю COM класс
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bp3dic.bp3dic.bp3dic_gen.TargetType">
+	<summary>
+Доступ к полю Тип платформы
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3dic.bp3dic.bp3dic_gen.XMLUnpack(System.Xml.XmlNode,System.Int32)">
+	<summary>
+Заполнить поля данными из XML
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3dic.bp3dic.bp3dic_gen.XLMPack(System.Xml.XmlElement,System.Xml.XmlDocument)">
+	<summary>
+Записать данные раздела в XML файл
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3dic.bp3dic.bp3dic_gen.BatchUpdate">
+	<summary>
+Записать изменения в базу данных
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bp3dic.bp3dic.bp3dic_gen.CountOfParts">
+	<summary>
+Количество дочерних разделов
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3dic.bp3dic.bp3dic_gen.GetDocCollection_Base(System.Int64)">
+	<summary>
+Доступ к дочернему разделу по номеру
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3dic.bp3dic.bp3dic_gen">
+	<summary>
+Реализация строки раздела Генераторы
+ </summary>
+	<remarks>
+	</remarks>
+</member>
+</members>
+</doc>

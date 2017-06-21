@@ -1,0 +1,1656 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+bp3doc
+</name>
+</assembly>
+<members>
+<member name="F:bp3doc.bp3doc.bp3doc_def.m_UseArchiving">
+	<summary>
+Локальная переменная для поля Архивировать вместо удаления
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:bp3doc.bp3doc.bp3doc_def.m_TheCaption">
+	<summary>
+Локальная переменная для поля Название
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:bp3doc.bp3doc.bp3doc_def.m_Name">
+	<summary>
+Локальная переменная для поля Код
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:bp3doc.bp3doc.bp3doc_def.m_UseOwnership">
+	<summary>
+Локальная переменная для поля Видмость зависит от пользователя
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:bp3doc.bp3doc.bp3doc_def.m_IsSingleInstance">
+	<summary>
+Локальная переменная для поля Допускается только один объект
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:bp3doc.bp3doc.bp3doc_def.m_CommitFullObject">
+	<summary>
+Локальная переменная для поля Сохранять объект целиком
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:bp3doc.bp3doc.bp3doc_def.m_TheComment">
+	<summary>
+Локальная переменная для поля Описание
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3doc.bp3doc.bp3doc_def.CleanFields">
+	<summary>
+Очистить поля раздела
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bp3doc.bp3doc.bp3doc_def.Count">
+	<summary>
+Количество полей в строке раздела
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bp3doc.bp3doc.bp3doc_def.Value(System.Object)">
+	<summary>
+Получить \Задать поле по номеру 
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3doc.bp3doc.bp3doc_def.FieldNameByID(System.Int64)">
+	<summary>
+Название поля по номеру
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3doc.bp3doc.bp3doc_def.FillDataTable(System.Data.DataTable@)">
+	<summary>
+Заполнить строку таблицы данными из полей
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3doc.bp3doc.bp3doc_def.FindInside(System.String,System.String)">
+	<summary>
+Найти строку в коллекции по идентификатору
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3doc.bp3doc.bp3doc_def.Pack(BP3.NamedValues)">
+	<summary>
+Заполнить коллекцю именованных полей
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3doc.bp3doc.bp3doc_def.Unpack(System.Data.DataRow)">
+	<summary>
+Заполнить поля из именованной коллекции
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bp3doc.bp3doc.bp3doc_def.TheCaption">
+	<summary>
+Доступ к полю Название
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bp3doc.bp3doc.bp3doc_def.Name">
+	<summary>
+Доступ к полю Код
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bp3doc.bp3doc.bp3doc_def.IsSingleInstance">
+	<summary>
+Доступ к полю Допускается только один объект
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bp3doc.bp3doc.bp3doc_def.TheComment">
+	<summary>
+Доступ к полю Описание
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bp3doc.bp3doc.bp3doc_def.UseOwnership">
+	<summary>
+Доступ к полю Видмость зависит от пользователя
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bp3doc.bp3doc.bp3doc_def.UseArchiving">
+	<summary>
+Доступ к полю Архивировать вместо удаления
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bp3doc.bp3doc.bp3doc_def.CommitFullObject">
+	<summary>
+Доступ к полю Сохранять объект целиком
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3doc.bp3doc.bp3doc_def.XMLUnpack(System.Xml.XmlNode,System.Int32)">
+	<summary>
+Заполнить поля данными из XML
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3doc.bp3doc.bp3doc_def.XLMPack(System.Xml.XmlElement,System.Xml.XmlDocument)">
+	<summary>
+Записать данные раздела в XML файл
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3doc.bp3doc.bp3doc_def.BatchUpdate">
+	<summary>
+Записать изменения в базу данных
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bp3doc.bp3doc.bp3doc_def.CountOfParts">
+	<summary>
+Количество дочерних разделов
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3doc.bp3doc.bp3doc_def.GetDocCollection_Base(System.Int64)">
+	<summary>
+Доступ к дочернему разделу по номеру
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3doc.bp3doc.bp3doc_def">
+	<summary>
+Реализация строки раздела Описание
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3doc.bp3doc.enumtypeTRF">
+	<summary>
+Перечисление Тип тарифа СС
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3doc.bp3doc.enumStructType">
+	<summary>
+Перечисление Тип раздела
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3doc.bp3doc.enumSaleRent">
+	<summary>
+Перечисление Арендапродажа
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3doc.bp3doc.enumWFFuncParam">
+	<summary>
+Перечисление Вариант расшифровки параметра функции
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3doc.bp3doc.enumReportType">
+	<summary>
+Перечисление Вариант отчета
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3doc.bp3doc.enumEducation">
+	<summary>
+Перечисление Образование
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3doc.bp3doc.enumKONTR_STATUS">
+	<summary>
+Перечисление Состояние партнера
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3doc.bp3doc.enumTypeStyle">
+	<summary>
+Перечисление Вариант трактовки типа поля
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3doc.bp3doc.enumReplicationType">
+	<summary>
+Перечисление Вариант репликации докуента
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3doc.bp3doc.enumDCType">
+	<summary>
+Перечисление Остатки/Дебит/Кредит
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3doc.bp3doc.enumNumerationRule">
+	<summary>
+Перечисление Правило нумерации
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3doc.bp3doc.enumWFProcessState">
+	<summary>
+Перечисление Состояния процесса
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3doc.bp3doc.enumMenuActionType">
+	<summary>
+Перечисление Вариант действия при выборе пункта меню
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3doc.bp3doc.enumtypeOperatorSystem">
+	<summary>
+Перечисление 
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3doc.bp3doc.enumtypeOrder">
+	<summary>
+Перечисление 
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3doc.bp3doc.enumWFShortcutType">
+	<summary>
+Перечисление Варианты ярлыков, которые может размещать процесс
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3doc.bp3doc.enumVHAlignment">
+	<summary>
+Перечисление Выравнивание
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3doc.bp3doc.enumtypeDocOrder">
+	<summary>
+Перечисление Тип документов для печати заказчику
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3doc.bp3doc.enumTypeSempling">
+	<summary>
+Перечисление Тип выборки
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3doc.bp3doc.enumCurrencyType">
+	<summary>
+Перечисление Валюта платежа
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3doc.bp3doc.enumInfoStoreType">
+	<summary>
+Перечисление Тип каталога
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3doc.bp3doc.enumB2Market">
+	<summary>
+Перечисление Рынок
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3doc.bp3doc.enumDevelopmentBase">
+	<summary>
+Перечисление Платформа разработки
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3doc.bp3doc.enumQuarter">
+	<summary>
+Перечисление Квартал
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3doc.bp3doc.enumMonths">
+	<summary>
+Перечисление Месяцы
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3doc.bp3doc.enumtypePackage">
+	<summary>
+Перечисление Тип отправления
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3doc.bp3doc.enumColumnSortType">
+	<summary>
+Перечисление Вариант сортиовки данных колонки
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3doc.bp3doc.enumHACCPPStep">
+	<summary>
+Перечисление Тип шага в ХАССП процессе
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3doc.bp3doc.enumBoolean">
+	<summary>
+Перечисление Да / Нет
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3doc.bp3doc.enumVRTaskType">
+	<summary>
+Перечисление Тип задачи
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3doc.bp3doc.enumJournalLinkType">
+	<summary>
+Перечисление Для связи журналов друг с другом
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3doc.bp3doc.enumTargetType">
+	<summary>
+Перечисление Вариант уровня приложения, куда может генерироваться код
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3doc.bp3doc.enumAdditionType">
+	<summary>
+Перечисление Тип надбавки
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3doc.bp3doc.enumPCB_LayerP">
+	<summary>
+Перечисление Представление поля
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3doc.bp3doc.enumtypeClient">
+	<summary>
+Перечисление Тип заказчика
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3doc.bp3doc.enumCacheType">
+	<summary>
+Перечисление Тип кеширования для расчета прав на объекты
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3doc.bp3doc.enumtypeRowCheque">
+	<summary>
+Перечисление Тип строки чека
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3doc.bp3doc.enumMesureFormat">
+	<summary>
+Перечисление Формат индикатора
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3doc.bp3doc.enumExportType">
+	<summary>
+Перечисление Тип экспорта
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3doc.bp3doc.enumWFStepClass">
+	<summary>
+Перечисление Тип шага процесса
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3doc.bp3doc.enumHACCPStep">
+	<summary>
+Перечисление Тип шага в ХАССП процессе
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3doc.bp3doc.enumtypePersonPay">
+	<summary>
+Перечисление 
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3doc.bp3doc.enumDayInWeek">
+	<summary>
+Перечисление День недели
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3doc.bp3doc.enumGeneratorStyle">
+	<summary>
+Перечисление GeneratorStyle
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3doc.bp3doc.enumPlatType">
+	<summary>
+Перечисление Тип плательщика
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3doc.bp3doc.enummsgState">
+	<summary>
+Перечисление Состояние заявки
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3doc.bp3doc.enumKONTR_TYPE">
+	<summary>
+Перечисление Тип контрагента
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3doc.bp3doc.enumtypeNomen">
+	<summary>
+Перечисление Тип номенкатуры
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3doc.bp3doc.enumOnJournalRowClick">
+	<summary>
+Перечисление действие при открытии строки журнала
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3doc.bp3doc.enumPartType">
+	<summary>
+Перечисление PartType
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3doc.bp3doc.enumtypePay">
+	<summary>
+Перечисление Сдельная  Ставка
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3doc.bp3doc.enumReferenceType">
+	<summary>
+Перечисление ReferenceType
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3doc.bp3doc.enumstateNomen">
+	<summary>
+Перечисление 
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3doc.bp3doc.enumConditionType">
+	<summary>
+Перечисление Варианты условий
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3doc.bp3doc.enumFolderType">
+	<summary>
+Перечисление Тип папки
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3doc.bp3doc.enummsgResult">
+	<summary>
+Перечисление Результат
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3doc.bp3doc.enumHaccpIdent">
+	<summary>
+Перечисление Идентификация
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3doc.bp3doc.enumPartAddBehaivor">
+	<summary>
+Перечисление Поведение при добавлении строки раздела
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3doc.bp3doc.enumExtentionType">
+	<summary>
+Перечисление Тип расширения
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3doc.bp3doc.enumtypeCourier">
+	<summary>
+Перечисление Договор  ТрудКнижка
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3doc.bp3doc.enumtypeFace">
+	<summary>
+Перечисление Физическое лицо  Юрифическое лицо
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3doc.bp3doc.enumContactStyle">
+	<summary>
+Перечисление Тип контакта
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3doc.bp3doc.enumSex">
+	<summary>
+Перечисление Мужской / Женский
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3doc.bp3doc.enumYesNo">
+	<summary>
+Перечисление Да / Нет (0 или 1)
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3doc.bp3doc.enumAggregationType">
+	<summary>
+Перечисление Вариант агрегации по полю
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3doc.bp3doc.enumWFFuncState">
+	<summary>
+Перечисление Состояние функции в бизнес процессе
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3doc.bp3doc.enumEmployment">
+	<summary>
+Перечисление Занятость
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3doc.bp3doc.enumDeliveryOn">
+	<summary>
+Перечисление 
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3doc.bp3doc.enumtypeReceiv">
+	<summary>
+Перечисление 
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3doc.bp3doc.enumTriState">
+	<summary>
+Перечисление Да / Нет / Не определено
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3doc.bp3doc.enumtypeTariff">
+	<summary>
+Перечисление 
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3doc.bp3doc.Application.MyTypeName">
+	<summary>
+Название типа документа
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:bp3doc.bp3doc.Application.m_bp3doc_uk">
+	<summary>
+ Внутренняя переменная для раздела Ограничение уникальности
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bp3doc.bp3doc.Application.bp3doc_uk">
+	<summary>
+Свойство для доступа к строкам раздела Ограничение уникальности
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:bp3doc.bp3doc.Application.m_bp3doc_store">
+	<summary>
+ Внутренняя переменная для раздела Раздел
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bp3doc.bp3doc.Application.bp3doc_store">
+	<summary>
+Свойство для доступа к строкам раздела Раздел
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:bp3doc.bp3doc.Application.m_bp3doc_def">
+	<summary>
+ Внутренняя переменная для раздела Описание
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bp3doc.bp3doc.Application.bp3doc_def">
+	<summary>
+Свойство для доступа к строкам раздела Описание
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bp3doc.bp3doc.Application.CountOfParts">
+	<summary>
+Количество разделов в объекте
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3doc.bp3doc.Application.GetDocCollection_Base(System.Int64)">
+	<summary>
+Получить раздел по номеру
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3doc.bp3doc.Application.FindInCollections(System.String,System.String)">
+	<summary>
+Поиск элемента в коллекции
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3doc.bp3doc.Application.XMLLoadCollections(System.Xml.XmlNode,System.Int32)">
+	<summary>
+Загрузка данных из XML  файла
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3doc.bp3doc.Application.XMLSaveCollections(System.Xml.XmlElement,System.Xml.XmlDocument)">
+	<summary>
+Сохранение данных в XML  файле
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3doc.bp3doc.Application.BatchUpdate">
+	<summary>
+Сохранение изменений в базе данных
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3doc.bp3doc.Application">
+	<summary>
+Реализация документа 
+ </summary>
+	<remarks>
+Документ
+ </remarks>
+</member><member name="F:bp3doc.bp3doc.bp3doc_store.m_Caption">
+	<summary>
+Локальная переменная для поля Заголовок
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:bp3doc.bp3doc.bp3doc_store.m_Sequence">
+	<summary>
+Локальная переменная для поля № п/п
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:bp3doc.bp3doc.bp3doc_store.m_shablonBrief">
+	<summary>
+Локальная переменная для поля Шаблон Бриеф
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:bp3doc.bp3doc.bp3doc_store.m_UseArchiving">
+	<summary>
+Локальная переменная для поля Архивировать
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:bp3doc.bp3doc.bp3doc_store.m_NoLog">
+	<summary>
+Локальная переменная для поля Не  журналировать
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:bp3doc.bp3doc.bp3doc_store.m_IsDocInstance">
+	<summary>
+Локальная переменная для поля Главный раздел
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:bp3doc.bp3doc.bp3doc_store.m_the_Comment">
+	<summary>
+Локальная переменная для поля Описание
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:bp3doc.bp3doc.bp3doc_store.m_ruleBrief">
+	<summary>
+Локальная переменная для поля Правило  BRIEF
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:bp3doc.bp3doc.bp3doc_store.m_PartType">
+	<summary>
+Локальная переменная для поля Тип структры
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:bp3doc.bp3doc.bp3doc_store.m_Name">
+	<summary>
+Локальная переменная для поля Название
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:bp3doc.bp3doc.bp3doc_store.m_UseChangeLog">
+	<summary>
+Локальная переменная для поля Вести журнал
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:bp3doc.bp3doc.bp3doc_store.m_bp3doc_field">
+	<summary>
+Локальная переменная для дочернего раздела Поле
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:bp3doc.bp3doc.bp3doc_store.m_bp3doc_store">
+	<summary>
+Локальная переменная для дочерних записей раздела Раздел
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3doc.bp3doc.bp3doc_store.CleanFields">
+	<summary>
+Очистить поля раздела
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bp3doc.bp3doc.bp3doc_store.Count">
+	<summary>
+Количество полей в строке раздела
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bp3doc.bp3doc.bp3doc_store.Value(System.Object)">
+	<summary>
+Получить \Задать поле по номеру 
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3doc.bp3doc.bp3doc_store.FieldNameByID(System.Int64)">
+	<summary>
+Название поля по номеру
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3doc.bp3doc.bp3doc_store.FillDataTable(System.Data.DataTable@)">
+	<summary>
+Заполнить строку таблицы данными из полей
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3doc.bp3doc.bp3doc_store.FindInside(System.String,System.String)">
+	<summary>
+Найти строку в коллекции по идентификатору
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3doc.bp3doc.bp3doc_store.Pack(BP3.NamedValues)">
+	<summary>
+Заполнить коллекцю именованных полей
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3doc.bp3doc.bp3doc_store.Unpack(System.Data.DataRow)">
+	<summary>
+Заполнить поля из именованной коллекции
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bp3doc.bp3doc.bp3doc_store.Sequence">
+	<summary>
+Доступ к полю № п/п
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bp3doc.bp3doc.bp3doc_store.Caption">
+	<summary>
+Доступ к полю Заголовок
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bp3doc.bp3doc.bp3doc_store.PartType">
+	<summary>
+Доступ к полю Тип структры
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bp3doc.bp3doc.bp3doc_store.Name">
+	<summary>
+Доступ к полю Название
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bp3doc.bp3doc.bp3doc_store.the_Comment">
+	<summary>
+Доступ к полю Описание
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bp3doc.bp3doc.bp3doc_store.IsDocInstance">
+	<summary>
+Доступ к полю Главный раздел
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bp3doc.bp3doc.bp3doc_store.UseArchiving">
+	<summary>
+Доступ к полю Архивировать
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bp3doc.bp3doc.bp3doc_store.NoLog">
+	<summary>
+Доступ к полю Не  журналировать
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bp3doc.bp3doc.bp3doc_store.shablonBrief">
+	<summary>
+Доступ к полю Шаблон Бриеф
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bp3doc.bp3doc.bp3doc_store.UseChangeLog">
+	<summary>
+Доступ к полю Вести журнал
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bp3doc.bp3doc.bp3doc_store.ruleBrief">
+	<summary>
+Доступ к полю Правило  BRIEF
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bp3doc.bp3doc.bp3doc_store.bp3doc_field">
+	<summary>
+Доступ к дочернему разделу Поле
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bp3doc.bp3doc.bp3doc_store.bp3doc_store">
+	<summary>
+Доступ к дочернему разделу Раздел
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3doc.bp3doc.bp3doc_store.XMLUnpack(System.Xml.XmlNode,System.Int32)">
+	<summary>
+Заполнить поля данными из XML
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3doc.bp3doc.bp3doc_store.XLMPack(System.Xml.XmlElement,System.Xml.XmlDocument)">
+	<summary>
+Записать данные раздела в XML файл
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3doc.bp3doc.bp3doc_store.BatchUpdate">
+	<summary>
+Записать изменения в базу данных
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bp3doc.bp3doc.bp3doc_store.CountOfParts">
+	<summary>
+Количество дочерних разделов
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3doc.bp3doc.bp3doc_store.GetDocCollection_Base(System.Int64)">
+	<summary>
+Доступ к дочернему разделу по номеру
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3doc.bp3doc.bp3doc_store">
+	<summary>
+Реализация строки раздела Раздел
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3doc.bp3doc.bp3doc_uk_col.ChildPartName">
+	<summary>
+Имя раздела в базе данных
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3doc.bp3doc.bp3doc_uk_col.CreateDataTable">
+	<summary>
+Вернуть даные текущей коллекции в виде DataTable
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3doc.bp3doc.bp3doc_uk_col.NewItem">
+	<summary>
+Создание нового элемента коллекции
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3doc.bp3doc.bp3doc_uk_col.GetItem(System.Object)">
+	<summary>
+Получить элемент коллекции
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3doc.bp3doc.bp3doc_uk_col.Item(System.Object)">
+	<summary>
+Получить элемент коллекции, более свежий вариант
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3doc.bp3doc.bp3doc_uk_col">
+	<summary>
+Реализация раздела Ограничение уникальностив виде коллекции
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3doc.bp3doc.bp3doc_store_col.ChildPartName">
+	<summary>
+Имя раздела в базе данных
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3doc.bp3doc.bp3doc_store_col.IsTree">
+	<summary>
+Признак древовидного раздела
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3doc.bp3doc.bp3doc_store_col.CreateDataTable">
+	<summary>
+Вернуть даные текущей коллекции в виде DataTable
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3doc.bp3doc.bp3doc_store_col.NewItem">
+	<summary>
+Создание нового элемента коллекции
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3doc.bp3doc.bp3doc_store_col.GetItem(System.Object)">
+	<summary>
+Получить элемент коллекции
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3doc.bp3doc.bp3doc_store_col.Item(System.Object)">
+	<summary>
+Получить элемент коллекции, более свежий вариант
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3doc.bp3doc.bp3doc_store_col">
+	<summary>
+Реализация раздела Разделв виде коллекции
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:bp3doc.bp3doc.bp3doc_uk.m_PerParent">
+	<summary>
+Локальная переменная для поля По родителю
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:bp3doc.bp3doc.bp3doc_uk.m_Name">
+	<summary>
+Локальная переменная для поля Название
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:bp3doc.bp3doc.bp3doc_uk.m_TheComment">
+	<summary>
+Локальная переменная для поля Описание
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:bp3doc.bp3doc.bp3doc_uk.m_UKStore">
+	<summary>
+Локальная переменная для поля Раздел
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:bp3doc.bp3doc.bp3doc_uk.m_bp3doc_ukfld">
+	<summary>
+Локальная переменная для дочернего раздела Поля ограничения
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3doc.bp3doc.bp3doc_uk.CleanFields">
+	<summary>
+Очистить поля раздела
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bp3doc.bp3doc.bp3doc_uk.Count">
+	<summary>
+Количество полей в строке раздела
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bp3doc.bp3doc.bp3doc_uk.Value(System.Object)">
+	<summary>
+Получить \Задать поле по номеру 
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3doc.bp3doc.bp3doc_uk.FieldNameByID(System.Int64)">
+	<summary>
+Название поля по номеру
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3doc.bp3doc.bp3doc_uk.FillDataTable(System.Data.DataTable@)">
+	<summary>
+Заполнить строку таблицы данными из полей
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3doc.bp3doc.bp3doc_uk.FindInside(System.String,System.String)">
+	<summary>
+Найти строку в коллекции по идентификатору
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3doc.bp3doc.bp3doc_uk.Pack(BP3.NamedValues)">
+	<summary>
+Заполнить коллекцю именованных полей
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3doc.bp3doc.bp3doc_uk.Unpack(System.Data.DataRow)">
+	<summary>
+Заполнить поля из именованной коллекции
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bp3doc.bp3doc.bp3doc_uk.UKStore">
+	<summary>
+Доступ к полю Раздел
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bp3doc.bp3doc.bp3doc_uk.TheComment">
+	<summary>
+Доступ к полю Описание
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bp3doc.bp3doc.bp3doc_uk.Name">
+	<summary>
+Доступ к полю Название
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bp3doc.bp3doc.bp3doc_uk.PerParent">
+	<summary>
+Доступ к полю По родителю
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bp3doc.bp3doc.bp3doc_uk.bp3doc_ukfld">
+	<summary>
+Доступ к дочернему разделу Поля ограничения
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3doc.bp3doc.bp3doc_uk.XMLUnpack(System.Xml.XmlNode,System.Int32)">
+	<summary>
+Заполнить поля данными из XML
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3doc.bp3doc.bp3doc_uk.XLMPack(System.Xml.XmlElement,System.Xml.XmlDocument)">
+	<summary>
+Записать данные раздела в XML файл
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3doc.bp3doc.bp3doc_uk.BatchUpdate">
+	<summary>
+Записать изменения в базу данных
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bp3doc.bp3doc.bp3doc_uk.CountOfParts">
+	<summary>
+Количество дочерних разделов
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3doc.bp3doc.bp3doc_uk.GetDocCollection_Base(System.Int64)">
+	<summary>
+Доступ к дочернему разделу по номеру
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3doc.bp3doc.bp3doc_uk">
+	<summary>
+Реализация строки раздела Ограничение уникальности
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3doc.bp3doc.bp3doc_def_col.ChildPartName">
+	<summary>
+Имя раздела в базе данных
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3doc.bp3doc.bp3doc_def_col.CreateDataTable">
+	<summary>
+Вернуть даные текущей коллекции в виде DataTable
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3doc.bp3doc.bp3doc_def_col.NewItem">
+	<summary>
+Создание нового элемента коллекции
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3doc.bp3doc.bp3doc_def_col.GetItem(System.Object)">
+	<summary>
+Получить элемент коллекции
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3doc.bp3doc.bp3doc_def_col.Item(System.Object)">
+	<summary>
+Получить элемент коллекции, более свежий вариант
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3doc.bp3doc.bp3doc_def_col">
+	<summary>
+Реализация раздела Описаниев виде коллекции
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3doc.bp3doc.bp3doc_field_col.ChildPartName">
+	<summary>
+Имя раздела в базе данных
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3doc.bp3doc.bp3doc_field_col.CreateDataTable">
+	<summary>
+Вернуть даные текущей коллекции в виде DataTable
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3doc.bp3doc.bp3doc_field_col.NewItem">
+	<summary>
+Создание нового элемента коллекции
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3doc.bp3doc.bp3doc_field_col.GetItem(System.Object)">
+	<summary>
+Получить элемент коллекции
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3doc.bp3doc.bp3doc_field_col.Item(System.Object)">
+	<summary>
+Получить элемент коллекции, более свежий вариант
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3doc.bp3doc.bp3doc_field_col">
+	<summary>
+Реализация раздела Полев виде коллекции
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:bp3doc.bp3doc.bp3doc_ukfld.m_TheField">
+	<summary>
+Локальная переменная для поля Поле
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3doc.bp3doc.bp3doc_ukfld.CleanFields">
+	<summary>
+Очистить поля раздела
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bp3doc.bp3doc.bp3doc_ukfld.Count">
+	<summary>
+Количество полей в строке раздела
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bp3doc.bp3doc.bp3doc_ukfld.Value(System.Object)">
+	<summary>
+Получить \Задать поле по номеру 
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3doc.bp3doc.bp3doc_ukfld.FieldNameByID(System.Int64)">
+	<summary>
+Название поля по номеру
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3doc.bp3doc.bp3doc_ukfld.FillDataTable(System.Data.DataTable@)">
+	<summary>
+Заполнить строку таблицы данными из полей
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3doc.bp3doc.bp3doc_ukfld.FindInside(System.String,System.String)">
+	<summary>
+Найти строку в коллекции по идентификатору
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3doc.bp3doc.bp3doc_ukfld.Pack(BP3.NamedValues)">
+	<summary>
+Заполнить коллекцю именованных полей
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3doc.bp3doc.bp3doc_ukfld.Unpack(System.Data.DataRow)">
+	<summary>
+Заполнить поля из именованной коллекции
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bp3doc.bp3doc.bp3doc_ukfld.TheField">
+	<summary>
+Доступ к полю Поле
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3doc.bp3doc.bp3doc_ukfld.XMLUnpack(System.Xml.XmlNode,System.Int32)">
+	<summary>
+Заполнить поля данными из XML
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3doc.bp3doc.bp3doc_ukfld.XLMPack(System.Xml.XmlElement,System.Xml.XmlDocument)">
+	<summary>
+Записать данные раздела в XML файл
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3doc.bp3doc.bp3doc_ukfld.BatchUpdate">
+	<summary>
+Записать изменения в базу данных
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bp3doc.bp3doc.bp3doc_ukfld.CountOfParts">
+	<summary>
+Количество дочерних разделов
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3doc.bp3doc.bp3doc_ukfld.GetDocCollection_Base(System.Int64)">
+	<summary>
+Доступ к дочернему разделу по номеру
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3doc.bp3doc.bp3doc_ukfld">
+	<summary>
+Реализация строки раздела Поля ограничения
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3doc.bp3doc.bp3doc_ukfld_col.ChildPartName">
+	<summary>
+Имя раздела в базе данных
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3doc.bp3doc.bp3doc_ukfld_col.CreateDataTable">
+	<summary>
+Вернуть даные текущей коллекции в виде DataTable
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3doc.bp3doc.bp3doc_ukfld_col.NewItem">
+	<summary>
+Создание нового элемента коллекции
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3doc.bp3doc.bp3doc_ukfld_col.GetItem(System.Object)">
+	<summary>
+Получить элемент коллекции
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3doc.bp3doc.bp3doc_ukfld_col.Item(System.Object)">
+	<summary>
+Получить элемент коллекции, более свежий вариант
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3doc.bp3doc.bp3doc_ukfld_col">
+	<summary>
+Реализация раздела Поля ограниченияв виде коллекции
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:bp3doc.bp3doc.bp3doc_field.m_Name">
+	<summary>
+Локальная переменная для поля Имя поля
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:bp3doc.bp3doc.bp3doc_field.m_FieldGroupBox">
+	<summary>
+Локальная переменная для поля Имя группы
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:bp3doc.bp3doc.bp3doc_field.m_DataSize">
+	<summary>
+Локальная переменная для поля Размер поля
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:bp3doc.bp3doc.bp3doc_field.m_TheStyle">
+	<summary>
+Локальная переменная для поля Стиль
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:bp3doc.bp3doc.bp3doc_field.m_TabName">
+	<summary>
+Локальная переменная для поля Имя вкладки
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:bp3doc.bp3doc.bp3doc_field.m_TheMask">
+	<summary>
+Локальная переменная для поля Маска
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:bp3doc.bp3doc.bp3doc_field.m_IsAutoNumber">
+	<summary>
+Локальная переменная для поля Автонумерация
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:bp3doc.bp3doc.bp3doc_field.m_TheComment">
+	<summary>
+Локальная переменная для поля Описание
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:bp3doc.bp3doc.bp3doc_field.m_Caption">
+	<summary>
+Локальная переменная для поля Надпись
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:bp3doc.bp3doc.bp3doc_field.m_IsTabBrief">
+	<summary>
+Локальная переменная для поля Для отображения в таблице
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:bp3doc.bp3doc.bp3doc_field.m_Sequence">
+	<summary>
+Локальная переменная для поля № п/п
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:bp3doc.bp3doc.bp3doc_field.m_IsBrief">
+	<summary>
+Локальная переменная для поля Краткая информация
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:bp3doc.bp3doc.bp3doc_field.m_FieldType">
+	<summary>
+Локальная переменная для поля Тип поля
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:bp3doc.bp3doc.bp3doc_field.m_ReferenceType">
+	<summary>
+Локальная переменная для поля Тип ссылки
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:bp3doc.bp3doc.bp3doc_field.m_RefToPart">
+	<summary>
+Локальная переменная для поля Ссылка на раздел
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:bp3doc.bp3doc.bp3doc_field.m_InternalReference">
+	<summary>
+Локальная переменная для поля Ссылка в пределах объекта
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:bp3doc.bp3doc.bp3doc_field.m_AllowNull">
+	<summary>
+Локальная переменная для поля Может быть пустым
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:bp3doc.bp3doc.bp3doc_field.m_shablonBrief">
+	<summary>
+Локальная переменная для поля Шаблон для краткого отображения
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3doc.bp3doc.bp3doc_field.CleanFields">
+	<summary>
+Очистить поля раздела
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bp3doc.bp3doc.bp3doc_field.Count">
+	<summary>
+Количество полей в строке раздела
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bp3doc.bp3doc.bp3doc_field.Value(System.Object)">
+	<summary>
+Получить \Задать поле по номеру 
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3doc.bp3doc.bp3doc_field.FieldNameByID(System.Int64)">
+	<summary>
+Название поля по номеру
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3doc.bp3doc.bp3doc_field.FillDataTable(System.Data.DataTable@)">
+	<summary>
+Заполнить строку таблицы данными из полей
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3doc.bp3doc.bp3doc_field.FindInside(System.String,System.String)">
+	<summary>
+Найти строку в коллекции по идентификатору
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3doc.bp3doc.bp3doc_field.Pack(BP3.NamedValues)">
+	<summary>
+Заполнить коллекцю именованных полей
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3doc.bp3doc.bp3doc_field.Unpack(System.Data.DataRow)">
+	<summary>
+Заполнить поля из именованной коллекции
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bp3doc.bp3doc.bp3doc_field.Sequence">
+	<summary>
+Доступ к полю № п/п
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bp3doc.bp3doc.bp3doc_field.Name">
+	<summary>
+Доступ к полю Имя поля
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bp3doc.bp3doc.bp3doc_field.Caption">
+	<summary>
+Доступ к полю Надпись
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bp3doc.bp3doc.bp3doc_field.TabName">
+	<summary>
+Доступ к полю Имя вкладки
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bp3doc.bp3doc.bp3doc_field.FieldGroupBox">
+	<summary>
+Доступ к полю Имя группы
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bp3doc.bp3doc.bp3doc_field.AllowNull">
+	<summary>
+Доступ к полю Может быть пустым
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bp3doc.bp3doc.bp3doc_field.FieldType">
+	<summary>
+Доступ к полю Тип поля
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bp3doc.bp3doc.bp3doc_field.ReferenceType">
+	<summary>
+Доступ к полю Тип ссылки
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bp3doc.bp3doc.bp3doc_field.DataSize">
+	<summary>
+Доступ к полю Размер поля
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bp3doc.bp3doc.bp3doc_field.RefToPart">
+	<summary>
+Доступ к полю Ссылка на раздел
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bp3doc.bp3doc.bp3doc_field.InternalReference">
+	<summary>
+Доступ к полю Ссылка в пределах объекта
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bp3doc.bp3doc.bp3doc_field.TheComment">
+	<summary>
+Доступ к полю Описание
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bp3doc.bp3doc.bp3doc_field.IsAutoNumber">
+	<summary>
+Доступ к полю Автонумерация
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bp3doc.bp3doc.bp3doc_field.IsBrief">
+	<summary>
+Доступ к полю Краткая информация
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bp3doc.bp3doc.bp3doc_field.IsTabBrief">
+	<summary>
+Доступ к полю Для отображения в таблице
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bp3doc.bp3doc.bp3doc_field.TheStyle">
+	<summary>
+Доступ к полю Стиль
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bp3doc.bp3doc.bp3doc_field.TheMask">
+	<summary>
+Доступ к полю Маска
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bp3doc.bp3doc.bp3doc_field.shablonBrief">
+	<summary>
+Доступ к полю Шаблон для краткого отображения
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3doc.bp3doc.bp3doc_field.XMLUnpack(System.Xml.XmlNode,System.Int32)">
+	<summary>
+Заполнить поля данными из XML
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3doc.bp3doc.bp3doc_field.XLMPack(System.Xml.XmlElement,System.Xml.XmlDocument)">
+	<summary>
+Записать данные раздела в XML файл
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3doc.bp3doc.bp3doc_field.BatchUpdate">
+	<summary>
+Записать изменения в базу данных
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bp3doc.bp3doc.bp3doc_field.CountOfParts">
+	<summary>
+Количество дочерних разделов
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3doc.bp3doc.bp3doc_field.GetDocCollection_Base(System.Int64)">
+	<summary>
+Доступ к дочернему разделу по номеру
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3doc.bp3doc.bp3doc_field">
+	<summary>
+Реализация строки раздела Поле
+ </summary>
+	<remarks>
+	</remarks>
+</member>
+</members>
+</doc>

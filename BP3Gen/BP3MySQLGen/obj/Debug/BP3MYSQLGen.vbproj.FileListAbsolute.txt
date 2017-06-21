@@ -1,0 +1,11 @@
+C:\bami\projects\BP3\BP3Gen\BP3MySQLGen\obj\Debug\BP3MYSQLGen.frmOptions.resources
+C:\bami\projects\BP3\BP3Gen\BP3MySQLGen\obj\Debug\BP3MYSQLGen.vbproj.GenerateResource.Cache
+C:\bami\projects\BP3\BP3Gen\BP3xcopy\bp3_sites.XML
+C:\bami\projects\BP3\BP3Gen\BP3xcopy\BP3MYSQLGen.dll.config
+C:\bami\projects\BP3\BP3Gen\BP3xcopy\BP3MYSQLGen.dll
+C:\bami\projects\BP3\BP3Gen\BP3xcopy\BP3MYSQLGen.pdb
+C:\bami\projects\BP3\BP3Gen\BP3xcopy\BP3MYSQLGen.xml
+C:\bami\projects\BP3\BP3Gen\BP3MySQLGen\obj\Debug\BP3MYSQLGen.vbprojResolveAssemblyReference.cache
+C:\bami\projects\BP3\BP3Gen\BP3MySQLGen\obj\Debug\BP3MYSQLGen.dll
+C:\bami\projects\BP3\BP3Gen\BP3MySQLGen\obj\Debug\BP3MYSQLGen.xml
+C:\bami\projects\BP3\BP3Gen\BP3MySQLGen\obj\Debug\BP3MYSQLGen.pdb

@@ -1,0 +1,1146 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+bp3card
+</name>
+</assembly>
+<members>
+<member name="M:bp3card.bp3card.bp3card_def_col.ChildPartName">
+	<summary>
+Имя раздела в базе данных
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3card.bp3card.bp3card_def_col.CreateDataTable">
+	<summary>
+Вернуть даные текущей коллекции в виде DataTable
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3card.bp3card.bp3card_def_col.NewItem">
+	<summary>
+Создание нового элемента коллекции
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3card.bp3card.bp3card_def_col.GetItem(System.Object)">
+	<summary>
+Получить элемент коллекции
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3card.bp3card.bp3card_def_col.Item(System.Object)">
+	<summary>
+Получить элемент коллекции, более свежий вариант
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3card.bp3card.bp3card_def_col">
+	<summary>
+Реализация раздела Карточка документав виде коллекции
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:bp3card.bp3card.bp3card_fld.m_FieldGroupBox">
+	<summary>
+Локальная переменная для поля Имя группы
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:bp3card.bp3card.bp3card_fld.m_Sequence">
+	<summary>
+Локальная переменная для поля № п/п
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:bp3card.bp3card.bp3card_fld.m_ThePart">
+	<summary>
+Локальная переменная для поля Структура, которой принадлежит поле
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:bp3card.bp3card.bp3card_fld.m_AllowModify">
+	<summary>
+Локальная переменная для поля Разрешена модификация
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:bp3card.bp3card.bp3card_fld.m_TheField">
+	<summary>
+Локальная переменная для поля Поле, на которое накладывается ограничение
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:bp3card.bp3card.bp3card_fld.m_TabName">
+	<summary>
+Локальная переменная для поля Имя вкладки
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:bp3card.bp3card.bp3card_fld.m_TheStyle">
+	<summary>
+Локальная переменная для поля Стиль
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:bp3card.bp3card.bp3card_fld.m_Caption">
+	<summary>
+Локальная переменная для поля Надпись
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:bp3card.bp3card.bp3card_fld.m_AllowRead">
+	<summary>
+Локальная переменная для поля Разрешен просмотр
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:bp3card.bp3card.bp3card_fld.m_MandatoryField">
+	<summary>
+Локальная переменная для поля Обязательное поле
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3card.bp3card.bp3card_fld.CleanFields">
+	<summary>
+Очистить поля раздела
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bp3card.bp3card.bp3card_fld.Count">
+	<summary>
+Количество полей в строке раздела
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bp3card.bp3card.bp3card_fld.Value(System.Object)">
+	<summary>
+Получить \Задать поле по номеру 
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3card.bp3card.bp3card_fld.FieldNameByID(System.Int64)">
+	<summary>
+Название поля по номеру
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3card.bp3card.bp3card_fld.FillDataTable(System.Data.DataTable@)">
+	<summary>
+Заполнить строку таблицы данными из полей
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3card.bp3card.bp3card_fld.FindInside(System.String,System.String)">
+	<summary>
+Найти строку в коллекции по идентификатору
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3card.bp3card.bp3card_fld.Pack(BP3.NamedValues)">
+	<summary>
+Заполнить коллекцю именованных полей
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3card.bp3card.bp3card_fld.Unpack(System.Data.DataRow)">
+	<summary>
+Заполнить поля из именованной коллекции
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bp3card.bp3card.bp3card_fld.Sequence">
+	<summary>
+Доступ к полю № п/п
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bp3card.bp3card.bp3card_fld.MandatoryField">
+	<summary>
+Доступ к полю Обязательное поле
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bp3card.bp3card.bp3card_fld.TheField">
+	<summary>
+Доступ к полю Поле, на которое накладывается ограничение
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bp3card.bp3card.bp3card_fld.ThePart">
+	<summary>
+Доступ к полю Структура, которой принадлежит поле
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bp3card.bp3card.bp3card_fld.AllowModify">
+	<summary>
+Доступ к полю Разрешена модификация
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bp3card.bp3card.bp3card_fld.AllowRead">
+	<summary>
+Доступ к полю Разрешен просмотр
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bp3card.bp3card.bp3card_fld.TabName">
+	<summary>
+Доступ к полю Имя вкладки
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bp3card.bp3card.bp3card_fld.FieldGroupBox">
+	<summary>
+Доступ к полю Имя группы
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bp3card.bp3card.bp3card_fld.TheStyle">
+	<summary>
+Доступ к полю Стиль
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bp3card.bp3card.bp3card_fld.Caption">
+	<summary>
+Доступ к полю Надпись
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3card.bp3card.bp3card_fld.XMLUnpack(System.Xml.XmlNode,System.Int32)">
+	<summary>
+Заполнить поля данными из XML
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3card.bp3card.bp3card_fld.XLMPack(System.Xml.XmlElement,System.Xml.XmlDocument)">
+	<summary>
+Записать данные раздела в XML файл
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3card.bp3card.bp3card_fld.BatchUpdate">
+	<summary>
+Записать изменения в базу данных
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bp3card.bp3card.bp3card_fld.CountOfParts">
+	<summary>
+Количество дочерних разделов
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3card.bp3card.bp3card_fld.GetDocCollection_Base(System.Int64)">
+	<summary>
+Доступ к дочернему разделу по номеру
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3card.bp3card.bp3card_fld">
+	<summary>
+Реализация строки раздела Поля карточки
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3card.bp3card.enumtypeTRF">
+	<summary>
+Перечисление Тип тарифа СС
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3card.bp3card.enumStructType">
+	<summary>
+Перечисление Тип раздела
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3card.bp3card.enumSaleRent">
+	<summary>
+Перечисление Арендапродажа
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3card.bp3card.enumWFFuncParam">
+	<summary>
+Перечисление Вариант расшифровки параметра функции
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3card.bp3card.enumReportType">
+	<summary>
+Перечисление Вариант отчета
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3card.bp3card.enumEducation">
+	<summary>
+Перечисление Образование
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3card.bp3card.enumKONTR_STATUS">
+	<summary>
+Перечисление Состояние партнера
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3card.bp3card.enumTypeStyle">
+	<summary>
+Перечисление Вариант трактовки типа поля
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3card.bp3card.enumReplicationType">
+	<summary>
+Перечисление Вариант репликации докуента
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3card.bp3card.enumDCType">
+	<summary>
+Перечисление Остатки/Дебит/Кредит
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3card.bp3card.enumNumerationRule">
+	<summary>
+Перечисление Правило нумерации
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3card.bp3card.enumWFProcessState">
+	<summary>
+Перечисление Состояния процесса
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3card.bp3card.enumMenuActionType">
+	<summary>
+Перечисление Вариант действия при выборе пункта меню
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3card.bp3card.enumtypeOperatorSystem">
+	<summary>
+Перечисление 
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3card.bp3card.enumtypeOrder">
+	<summary>
+Перечисление 
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3card.bp3card.enumWFShortcutType">
+	<summary>
+Перечисление Варианты ярлыков, которые может размещать процесс
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3card.bp3card.enumVHAlignment">
+	<summary>
+Перечисление Выравнивание
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3card.bp3card.enumtypeDocOrder">
+	<summary>
+Перечисление Тип документов для печати заказчику
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3card.bp3card.enumTypeSempling">
+	<summary>
+Перечисление Тип выборки
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3card.bp3card.enumCurrencyType">
+	<summary>
+Перечисление Валюта платежа
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3card.bp3card.enumInfoStoreType">
+	<summary>
+Перечисление Тип каталога
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3card.bp3card.enumB2Market">
+	<summary>
+Перечисление Рынок
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3card.bp3card.enumDevelopmentBase">
+	<summary>
+Перечисление Платформа разработки
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3card.bp3card.enumQuarter">
+	<summary>
+Перечисление Квартал
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3card.bp3card.enumMonths">
+	<summary>
+Перечисление Месяцы
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3card.bp3card.enumtypePackage">
+	<summary>
+Перечисление Тип отправления
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3card.bp3card.enumColumnSortType">
+	<summary>
+Перечисление Вариант сортиовки данных колонки
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3card.bp3card.enumHACCPPStep">
+	<summary>
+Перечисление Тип шага в ХАССП процессе
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3card.bp3card.enumBoolean">
+	<summary>
+Перечисление Да / Нет
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3card.bp3card.enumVRTaskType">
+	<summary>
+Перечисление Тип задачи
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3card.bp3card.enumJournalLinkType">
+	<summary>
+Перечисление Для связи журналов друг с другом
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3card.bp3card.enumTargetType">
+	<summary>
+Перечисление Вариант уровня приложения, куда может генерироваться код
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3card.bp3card.enumAdditionType">
+	<summary>
+Перечисление Тип надбавки
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3card.bp3card.enumPCB_LayerP">
+	<summary>
+Перечисление Представление поля
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3card.bp3card.enumtypeClient">
+	<summary>
+Перечисление Тип заказчика
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3card.bp3card.enumCacheType">
+	<summary>
+Перечисление Тип кеширования для расчета прав на объекты
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3card.bp3card.enumtypeRowCheque">
+	<summary>
+Перечисление Тип строки чека
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3card.bp3card.enumMesureFormat">
+	<summary>
+Перечисление Формат индикатора
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3card.bp3card.enumExportType">
+	<summary>
+Перечисление Тип экспорта
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3card.bp3card.enumWFStepClass">
+	<summary>
+Перечисление Тип шага процесса
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3card.bp3card.enumHACCPStep">
+	<summary>
+Перечисление Тип шага в ХАССП процессе
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3card.bp3card.enumtypePersonPay">
+	<summary>
+Перечисление 
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3card.bp3card.enumDayInWeek">
+	<summary>
+Перечисление День недели
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3card.bp3card.enumGeneratorStyle">
+	<summary>
+Перечисление GeneratorStyle
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3card.bp3card.enumPlatType">
+	<summary>
+Перечисление Тип плательщика
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3card.bp3card.enummsgState">
+	<summary>
+Перечисление Состояние заявки
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3card.bp3card.enumKONTR_TYPE">
+	<summary>
+Перечисление Тип контрагента
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3card.bp3card.enumtypeNomen">
+	<summary>
+Перечисление Тип номенкатуры
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3card.bp3card.enumOnJournalRowClick">
+	<summary>
+Перечисление действие при открытии строки журнала
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3card.bp3card.enumPartType">
+	<summary>
+Перечисление PartType
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3card.bp3card.enumtypePay">
+	<summary>
+Перечисление Сдельная  Ставка
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3card.bp3card.enumReferenceType">
+	<summary>
+Перечисление ReferenceType
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3card.bp3card.enumstateNomen">
+	<summary>
+Перечисление 
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3card.bp3card.enumConditionType">
+	<summary>
+Перечисление Варианты условий
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3card.bp3card.enumFolderType">
+	<summary>
+Перечисление Тип папки
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3card.bp3card.enummsgResult">
+	<summary>
+Перечисление Результат
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3card.bp3card.enumHaccpIdent">
+	<summary>
+Перечисление Идентификация
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3card.bp3card.enumPartAddBehaivor">
+	<summary>
+Перечисление Поведение при добавлении строки раздела
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3card.bp3card.enumExtentionType">
+	<summary>
+Перечисление Тип расширения
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3card.bp3card.enumtypeCourier">
+	<summary>
+Перечисление Договор  ТрудКнижка
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3card.bp3card.enumtypeFace">
+	<summary>
+Перечисление Физическое лицо  Юрифическое лицо
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3card.bp3card.enumContactStyle">
+	<summary>
+Перечисление Тип контакта
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3card.bp3card.enumSex">
+	<summary>
+Перечисление Мужской / Женский
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3card.bp3card.enumYesNo">
+	<summary>
+Перечисление Да / Нет (0 или 1)
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3card.bp3card.enumAggregationType">
+	<summary>
+Перечисление Вариант агрегации по полю
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3card.bp3card.enumWFFuncState">
+	<summary>
+Перечисление Состояние функции в бизнес процессе
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3card.bp3card.enumEmployment">
+	<summary>
+Перечисление Занятость
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3card.bp3card.enumDeliveryOn">
+	<summary>
+Перечисление 
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3card.bp3card.enumtypeReceiv">
+	<summary>
+Перечисление 
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3card.bp3card.enumTriState">
+	<summary>
+Перечисление Да / Нет / Не определено
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3card.bp3card.enumtypeTariff">
+	<summary>
+Перечисление 
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3card.bp3card.Application.MyTypeName">
+	<summary>
+Название типа документа
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:bp3card.bp3card.Application.m_bp3card_part">
+	<summary>
+ Внутренняя переменная для раздела Раздел
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bp3card.bp3card.Application.bp3card_part">
+	<summary>
+Свойство для доступа к строкам раздела Раздел
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:bp3card.bp3card.Application.m_bp3card_fld">
+	<summary>
+ Внутренняя переменная для раздела Поля карточки
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bp3card.bp3card.Application.bp3card_fld">
+	<summary>
+Свойство для доступа к строкам раздела Поля карточки
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:bp3card.bp3card.Application.m_bp3card_def">
+	<summary>
+ Внутренняя переменная для раздела Карточка документа
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bp3card.bp3card.Application.bp3card_def">
+	<summary>
+Свойство для доступа к строкам раздела Карточка документа
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bp3card.bp3card.Application.CountOfParts">
+	<summary>
+Количество разделов в объекте
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3card.bp3card.Application.GetDocCollection_Base(System.Int64)">
+	<summary>
+Получить раздел по номеру
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3card.bp3card.Application.FindInCollections(System.String,System.String)">
+	<summary>
+Поиск элемента в коллекции
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3card.bp3card.Application.XMLLoadCollections(System.Xml.XmlNode,System.Int32)">
+	<summary>
+Загрузка данных из XML  файла
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3card.bp3card.Application.XMLSaveCollections(System.Xml.XmlElement,System.Xml.XmlDocument)">
+	<summary>
+Сохранение данных в XML  файле
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3card.bp3card.Application.BatchUpdate">
+	<summary>
+Сохранение изменений в базе данных
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3card.bp3card.Application">
+	<summary>
+Реализация документа Карточка документа, то что раньше было режимом !
+ </summary>
+	<remarks>
+Карточка
+ </remarks>
+</member><member name="F:bp3card.bp3card.bp3card_part.m_Sequence">
+	<summary>
+Локальная переменная для поля № п/п
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:bp3card.bp3card.bp3card_part.m_Struct">
+	<summary>
+Локальная переменная для поля Раздел документа
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:bp3card.bp3card.bp3card_part.m_AllowEdit">
+	<summary>
+Локальная переменная для поля Разрешено изменять
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:bp3card.bp3card.bp3card_part.m_AllowRead">
+	<summary>
+Локальная переменная для поля Разрешен просмотр
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:bp3card.bp3card.bp3card_part.m_AllowDelete">
+	<summary>
+Локальная переменная для поля Разрешено удалять
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:bp3card.bp3card.bp3card_part.m_AllowAdd">
+	<summary>
+Локальная переменная для поля Разрешено добавлять
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:bp3card.bp3card.bp3card_part.m_Caption">
+	<summary>
+Локальная переменная для поля Заголовок
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3card.bp3card.bp3card_part.CleanFields">
+	<summary>
+Очистить поля раздела
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bp3card.bp3card.bp3card_part.Count">
+	<summary>
+Количество полей в строке раздела
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bp3card.bp3card.bp3card_part.Value(System.Object)">
+	<summary>
+Получить \Задать поле по номеру 
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3card.bp3card.bp3card_part.FieldNameByID(System.Int64)">
+	<summary>
+Название поля по номеру
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3card.bp3card.bp3card_part.FillDataTable(System.Data.DataTable@)">
+	<summary>
+Заполнить строку таблицы данными из полей
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3card.bp3card.bp3card_part.FindInside(System.String,System.String)">
+	<summary>
+Найти строку в коллекции по идентификатору
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3card.bp3card.bp3card_part.Pack(BP3.NamedValues)">
+	<summary>
+Заполнить коллекцю именованных полей
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3card.bp3card.bp3card_part.Unpack(System.Data.DataRow)">
+	<summary>
+Заполнить поля из именованной коллекции
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bp3card.bp3card.bp3card_part.Struct">
+	<summary>
+Доступ к полю Раздел документа
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bp3card.bp3card.bp3card_part.AllowAdd">
+	<summary>
+Доступ к полю Разрешено добавлять
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bp3card.bp3card.bp3card_part.AllowDelete">
+	<summary>
+Доступ к полю Разрешено удалять
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bp3card.bp3card.bp3card_part.AllowRead">
+	<summary>
+Доступ к полю Разрешен просмотр
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bp3card.bp3card.bp3card_part.AllowEdit">
+	<summary>
+Доступ к полю Разрешено изменять
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bp3card.bp3card.bp3card_part.Sequence">
+	<summary>
+Доступ к полю № п/п
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bp3card.bp3card.bp3card_part.Caption">
+	<summary>
+Доступ к полю Заголовок
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3card.bp3card.bp3card_part.XMLUnpack(System.Xml.XmlNode,System.Int32)">
+	<summary>
+Заполнить поля данными из XML
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3card.bp3card.bp3card_part.XLMPack(System.Xml.XmlElement,System.Xml.XmlDocument)">
+	<summary>
+Записать данные раздела в XML файл
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3card.bp3card.bp3card_part.BatchUpdate">
+	<summary>
+Записать изменения в базу данных
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bp3card.bp3card.bp3card_part.CountOfParts">
+	<summary>
+Количество дочерних разделов
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3card.bp3card.bp3card_part.GetDocCollection_Base(System.Int64)">
+	<summary>
+Доступ к дочернему разделу по номеру
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3card.bp3card.bp3card_part">
+	<summary>
+Реализация строки раздела Раздел
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:bp3card.bp3card.bp3card_def.m_DefaultMode">
+	<summary>
+Локальная переменная для поля Главное представление
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:bp3card.bp3card.bp3card_def.m_TheComment">
+	<summary>
+Локальная переменная для поля Описание
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:bp3card.bp3card.bp3card_def.m_CardFor">
+	<summary>
+Локальная переменная для поля Документ
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:bp3card.bp3card.bp3card_def.m_cardiconcls">
+	<summary>
+Локальная переменная для поля Иконка карточки
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="F:bp3card.bp3card.bp3card_def.m_Name">
+	<summary>
+Локальная переменная для поля Название карточки
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3card.bp3card.bp3card_def.CleanFields">
+	<summary>
+Очистить поля раздела
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bp3card.bp3card.bp3card_def.Count">
+	<summary>
+Количество полей в строке раздела
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bp3card.bp3card.bp3card_def.Value(System.Object)">
+	<summary>
+Получить \Задать поле по номеру 
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3card.bp3card.bp3card_def.FieldNameByID(System.Int64)">
+	<summary>
+Название поля по номеру
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3card.bp3card.bp3card_def.FillDataTable(System.Data.DataTable@)">
+	<summary>
+Заполнить строку таблицы данными из полей
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3card.bp3card.bp3card_def.FindInside(System.String,System.String)">
+	<summary>
+Найти строку в коллекции по идентификатору
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3card.bp3card.bp3card_def.Pack(BP3.NamedValues)">
+	<summary>
+Заполнить коллекцю именованных полей
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3card.bp3card.bp3card_def.Unpack(System.Data.DataRow)">
+	<summary>
+Заполнить поля из именованной коллекции
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bp3card.bp3card.bp3card_def.CardFor">
+	<summary>
+Доступ к полю Документ
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bp3card.bp3card.bp3card_def.TheComment">
+	<summary>
+Доступ к полю Описание
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bp3card.bp3card.bp3card_def.Name">
+	<summary>
+Доступ к полю Название карточки
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bp3card.bp3card.bp3card_def.DefaultMode">
+	<summary>
+Доступ к полю Главное представление
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bp3card.bp3card.bp3card_def.cardiconcls">
+	<summary>
+Доступ к полю Иконка карточки
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3card.bp3card.bp3card_def.XMLUnpack(System.Xml.XmlNode,System.Int32)">
+	<summary>
+Заполнить поля данными из XML
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3card.bp3card.bp3card_def.XLMPack(System.Xml.XmlElement,System.Xml.XmlDocument)">
+	<summary>
+Записать данные раздела в XML файл
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3card.bp3card.bp3card_def.BatchUpdate">
+	<summary>
+Записать изменения в базу данных
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:bp3card.bp3card.bp3card_def.CountOfParts">
+	<summary>
+Количество дочерних разделов
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3card.bp3card.bp3card_def.GetDocCollection_Base(System.Int64)">
+	<summary>
+Доступ к дочернему разделу по номеру
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3card.bp3card.bp3card_def">
+	<summary>
+Реализация строки раздела Карточка документа
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3card.bp3card.bp3card_part_col.ChildPartName">
+	<summary>
+Имя раздела в базе данных
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3card.bp3card.bp3card_part_col.CreateDataTable">
+	<summary>
+Вернуть даные текущей коллекции в виде DataTable
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3card.bp3card.bp3card_part_col.NewItem">
+	<summary>
+Создание нового элемента коллекции
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3card.bp3card.bp3card_part_col.GetItem(System.Object)">
+	<summary>
+Получить элемент коллекции
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3card.bp3card.bp3card_part_col.Item(System.Object)">
+	<summary>
+Получить элемент коллекции, более свежий вариант
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3card.bp3card.bp3card_part_col">
+	<summary>
+Реализация раздела Разделв виде коллекции
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3card.bp3card.bp3card_fld_col.ChildPartName">
+	<summary>
+Имя раздела в базе данных
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3card.bp3card.bp3card_fld_col.CreateDataTable">
+	<summary>
+Вернуть даные текущей коллекции в виде DataTable
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3card.bp3card.bp3card_fld_col.NewItem">
+	<summary>
+Создание нового элемента коллекции
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3card.bp3card.bp3card_fld_col.GetItem(System.Object)">
+	<summary>
+Получить элемент коллекции
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:bp3card.bp3card.bp3card_fld_col.Item(System.Object)">
+	<summary>
+Получить элемент коллекции, более свежий вариант
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="T:bp3card.bp3card.bp3card_fld_col">
+	<summary>
+Реализация раздела Поля карточкив виде коллекции
+ </summary>
+	<remarks>
+	</remarks>
+</member>
+</members>
+</doc>

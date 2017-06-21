@@ -1,0 +1,20 @@
+C:\LATIR2\Generated\Generated Dlls\LATIR_MYSQLGen.dll.config
+C:\LATIR2\Generated\Generated Dlls\LATIR_MYSQLGen.dll
+C:\LATIR2\Generated\Generated Dlls\LATIR_MYSQLGen.pdb
+C:\LATIR2\Generated\Generated Dlls\LATIR_MYSQLGen.xml
+C:\LATIR2\GENERATORS\LATIR_MySQLGen\obj\Debug\ResolveAssemblyReference.cache
+C:\LATIR2\GENERATORS\LATIR_MySQLGen\obj\Debug\LATIR_MYSQLGen.frmOptions.resources
+C:\LATIR2\GENERATORS\LATIR_MySQLGen\obj\Debug\LATIR_MYSQLGen.vbproj.GenerateResource.Cache
+C:\LATIR2\GENERATORS\LATIR_MySQLGen\obj\Debug\LATIR_MYSQLGen.dll
+C:\LATIR2\GENERATORS\LATIR_MySQLGen\obj\Debug\LATIR_MYSQLGen.xml
+C:\LATIR2\GENERATORS\LATIR_MySQLGen\obj\Debug\LATIR_MYSQLGen.pdb
+E:\LATIR2\Generated\Generated Dlls\LATIR_MYSQLGen.dll.config
+E:\LATIR2\Generated\Generated Dlls\LATIR_MYSQLGen.dll
+E:\LATIR2\Generated\Generated Dlls\LATIR_MYSQLGen.pdb
+E:\LATIR2\Generated\Generated Dlls\LATIR_MYSQLGen.xml
+E:\LATIR2\GENERATORS\LATIR_MySQLGen\obj\Debug\ResolveAssemblyReference.cache
+E:\LATIR2\GENERATORS\LATIR_MySQLGen\obj\Debug\LATIR_MYSQLGen.frmOptions.resources
+E:\LATIR2\GENERATORS\LATIR_MySQLGen\obj\Debug\LATIR_MYSQLGen.vbproj.GenerateResource.Cache
+E:\LATIR2\GENERATORS\LATIR_MySQLGen\obj\Debug\LATIR_MYSQLGen.dll
+E:\LATIR2\GENERATORS\LATIR_MySQLGen\obj\Debug\LATIR_MYSQLGen.xml
+E:\LATIR2\GENERATORS\LATIR_MySQLGen\obj\Debug\LATIR_MYSQLGen.pdb

@@ -1,0 +1,7 @@
+C:\bami\projects\express\L2\bp3doc.dll
+C:\bami\projects\express\L2\bp3doc.pdb
+C:\bami\projects\express\L2\bp3doc.xml
+C:\bami\L2\BP3\VB.NET Model\bp3doc\obj\Debug\ResolveAssemblyReference.cache
+C:\bami\L2\BP3\VB.NET Model\bp3doc\obj\Debug\bp3doc.dll
+C:\bami\L2\BP3\VB.NET Model\bp3doc\obj\Debug\bp3doc.xml
+C:\bami\L2\BP3\VB.NET Model\bp3doc\obj\Debug\bp3doc.pdb

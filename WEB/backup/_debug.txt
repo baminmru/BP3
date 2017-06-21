@@ -1,0 +1,8 @@
+>>>: "CALL iu_task_stopdelegate('{81573852-0B6B-11E4-8FBF-00155D0ED711}', '{019BC983-0B77-11E4-8FBF-00155D0ED711}', '\u0441\u043b\u0443\u0447\u0430\u0439\u043d\u043e')"\r\n>>>: []\r\n>>>: SELECT iu_task_doer_states,iu_task_doer_id,iu_task_controller_id,ucode,urokid,instanceid,id,DATE_FORMAT(iu_task_finishdate,'%Y-%m-%d %H:%i:%s') iu_task_finishdate,DATE_FORMAT(iu_task_createdate,'%Y-%m-%d %H:%i:%s') iu_task_createdate,iu_task_delegatefrom,iu_task_doer_states,DATE_FORMAT(iu_task_senttodoer,'%Y-%m-%d %H:%i:%s') iu_task_senttodoer,iu_task_taskfinished,iu_task_controller_comment,DATE_FORMAT(iu_task_planenddate,'%Y-%m-%d %H:%i:%s') iu_task_planenddate,iu_task_doer,iu_task_processstatus,iu_task_taskcancelled,iu_task_info,iu_task_statetask,iu_task_ischecked,iu_task_contoller,iu_task_subj,iu_task_doer_comment,iu_task_theprocess
+                     FROM v_autoiu_task
+                      WHERE 1   and (( iu_task_taskfinished_val<>-1 and iu_task_taskcancelled_val<>-1 and iu_task_contoller='' ) or ( iu_task_contoller<>''  and  (( (iu_task_ischecked_val is null) or (iu_task_ischecked_val=0 ) )) and iu_task_taskcancelled_val<>-1) )  and  (iu_t_access_f('{81573852-0B6B-11E4-8FBF-00155D0ED711}',v_autoiu_task.instanceid)<>0 and instance_archived=0) 
+					  ORDER BY iu_task_createdate DESC LIMIT 0,30
+			 sort :[iu_task_createdate DESC] 
+
+			 >>>: SELECT count(*) FROM v_autoiu_task WHERE 1   and (( iu_task_taskfinished_val<>-1 and iu_task_taskcancelled_val<>-1 and iu_task_contoller='' ) or ( iu_task_contoller<>''  and  (( (iu_task_ischecked_val is null) or (iu_task_ischecked_val=0 ) )) and iu_task_taskcancelled_val<>-1) )  and  (iu_t_access_f('{81573852-0B6B-11E4-8FBF-00155D0ED711}',v_autoiu_task.instanceid)<>0 and instance_archived=0) 
+					

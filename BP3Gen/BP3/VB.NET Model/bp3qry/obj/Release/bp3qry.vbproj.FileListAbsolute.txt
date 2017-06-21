@@ -1,0 +1,4 @@
+C:\bami\projects\BP3\BP3Gen\BP3\VB.NET Model\BP3xcopy\bp3qry.dll
+C:\bami\projects\BP3\BP3Gen\BP3\VB.NET Model\BP3xcopy\bp3qry.xml
+C:\bami\projects\BP3\BP3Gen\BP3\VB.NET Model\bp3qry\obj\Release\bp3qry.dll
+C:\bami\projects\BP3\BP3Gen\BP3\VB.NET Model\bp3qry\obj\Release\bp3qry.xml

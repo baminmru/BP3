@@ -1,0 +1,10 @@
+C:\LATIR2\Generated\L2Manager.dll
+C:\LATIR2\Generated\L2Manager.pdb
+C:\LATIR2\Generated\L2Manager.xml
+C:\LATIR2\Generated\Generated dlls\L2Manager.dll
+C:\LATIR2\Generated\Generated dlls\L2Manager.pdb
+C:\LATIR2\Generated\Generated dlls\L2Manager.xml
+C:\LATIR2\objmanager\obj\Debug\ResolveAssemblyReference.cache
+C:\LATIR2\objmanager\obj\Debug\L2Manager.dll
+C:\LATIR2\objmanager\obj\Debug\L2Manager.xml
+C:\LATIR2\objmanager\obj\Debug\L2Manager.pdb
